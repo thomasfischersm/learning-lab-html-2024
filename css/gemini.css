@@ -1,0 +1,69 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #f0f0f0; /* Adjust background color as needed */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures content fills viewport height */
+  box-sizing: border-box; /* Ensures margins and padding don't affect width */
+}
+
+/* Mobile view (smaller screens) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Fills entire width on mobile */
+  }
+}
+
+/* Desktop view (larger screens) */
+@media (min-width: 768px) {
+  .container {
+    width: 768px; /* Sets a fixed width on desktop */
+    margin: 0 auto; /* Centers content horizontally */
+  }
+}
+
+/* Page sections */
+.page {
+  margin-bottom: 50px; /* Space between sections */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page h1,
+.page p {
+  margin: 10px 0; /* Spacing between heading and text */
+}
+
+/* Responsive image sizing */
+.page img {
+  flex: 1 0 auto; /* Allows image to flex and take up remaining space */
+  object-fit: cover; /* Maintain aspect ratio and cover area */
+  height: auto; /* Adjust height based on aspect ratio */
+}
+
+/* Call to action bar */
+.call-to-action {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333; /* Adjust background color as needed */
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+.call-to-action a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+  padding: 10px;
+}
