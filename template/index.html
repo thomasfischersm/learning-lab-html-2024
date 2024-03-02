@@ -19,7 +19,7 @@ function syncAllElements() {
 	
 	// Sync header height to top padding.
 	var headerBarHeight = document.querySelector('.header-bar').offsetHeight;
-	var headerBarHeight = document.querySelector('.action-bar').offsetHeight;
+	var footerBarHeight = document.querySelector('.action-bar').offsetHeight;
 	var contentDivs = document.querySelectorAll('.content');
 	
 	contentDivs.forEach(contentDiv => {
@@ -40,6 +40,9 @@ function syncElementWidth(srcElementCss, targetElementCss) {
 <body>
 <article class="content">
   <h1>Welcome</h1>
+  <div class="youtube-container">
+    <iframe src="https://www.youtube.com/embed/ER1Ckr00ynQ?si=b7LNub7Y1Z9ncht5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
 </article>
 <article class="content">
   <h1>Benefits</h1>
@@ -70,7 +73,7 @@ function syncElementWidth(srcElementCss, targetElementCss) {
     <h2>USP</h2>
   </div>
   <div class="action-bar-button">
-    <input type="button" value="sign up"/>
+    <input class="pillboxButton" type="button" value="sign up"/>
   </div>
 </div>
 </body>

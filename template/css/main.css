@@ -23,10 +23,11 @@ p {
   font-size: 16px;
 }
 .content {
-  max-width: 600px;
+/*  max-width: 600px;*/
   background-color: var(--content-bg-color);
   margin-left: auto;
   margin-right: auto;
+	width: 100%;
   height: 100vh;
   padding-top: 1px;
   padding: 15px;
@@ -39,12 +40,25 @@ p {
   display: block;
   margin: 0 auto;
 }
+.youtube-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625) */
+    height: 0;
+}
+.youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .header-bar {
   position: fixed;
   margin-top: auto;
   top: 0px;
   background-color: var(--header-bg-color);
-  max-width: 600px;
+/*  max-width: 600px;*/
   width: 100%;
   left: 50%;
   transform: translate(-50%);
@@ -136,7 +150,7 @@ p {
   margin-top: auto;
   bottom: 0px;
   background-color: var(--footer-bg-color);
-  max-width: 600px;
+/*  max-width: 600px;*/
   width: 100%;
   left: 50%;
   transform: translate(-50%);
@@ -144,7 +158,7 @@ p {
   display: flex;
   align-items: center;
 }
-.header-placeholder {
+.action-bar-placeholder {
 	visibility: hidden;
 }
 .action-bar-usp {
@@ -153,4 +167,33 @@ p {
 }
 .action-bar-button {
   text-align: right;
+}
+.pillboxButton {
+    padding: 10px 20px; /* Adjust padding to suit your needs */
+    background-color: #007bff; /* Choose your preferred button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* High border-radius to create the pill shape */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.pillboxButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+@media (min-width: 768px) {
+	.content {
+		width: calc(100vh * 9 / 16);
+        max-width: 100%; 
+	}
+	.header-bar {
+		width: calc(100vh * 9 / 16);
+        max-width: 100%; 		
+	}
+	.action-bar {
+		width: calc(100vh * 9 / 16);
+        max-width: 100%; 		
+	}
 }
