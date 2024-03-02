@@ -3,7 +3,38 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
-<link rel="stylesheet" type="text/css" href="css/default.css"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<script type="application/javascript">
+window.onload = function() {
+	syncAllElements();
+};
+
+window.onresize = function() {
+    syncAllElements();
+};
+
+function syncAllElements() {
+	syncElementWidth('.header-nav', '.header-placeholder');
+	syncElementWidth('.action-bar-button', '.action-bar-placeholder');
+	
+	// Sync header height to top padding.
+	var headerBarHeight = document.querySelector('.header-bar').offsetHeight;
+	var headerBarHeight = document.querySelector('.action-bar').offsetHeight;
+	var contentDivs = document.querySelectorAll('.content');
+	
+	contentDivs.forEach(contentDiv => {
+		contentDiv.style.paddingTop = headerBarHeight + 'px';
+		contentDiv.style.paddingBottom = footerBarHeight + 'px';
+	});
+}	
+	
+function syncElementWidth(srcElementCss, targetElementCss) {
+    var child1 = document.querySelector(srcElementCss);
+    var placeholder = document.querySelector(targetElementCss);
+
+    placeholder.style.width = child1.offsetWidth + 'px';
+}
+</script>
 </head>
 
 <body>
@@ -16,10 +47,25 @@
   <p>asdfadsfads asdf asdf adsf </p>
   <img class="content-image" src="images/unsplash.jpg" style="height: 100px"/> </article>
 <div class="header-bar">
-  <div class="header-nav">=</div>
-  <div class="header-text"><h2>Sensual Bachata Learning Lab</h2></div>
+  <div class="header-nav">
+    <div class="navigation">
+      <div class="navigation-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </div>
+      <nav class="navigation-menu">
+        <ul>
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="header-text">
+    <h2>Sensual Bachata Learning Lab</h2>
+  </div>
+  <div class="header-placeholder">.</div>
 </div>
 <div class="action-bar">
+  <div class="action-bar-placeholder">.</div>
   <div class="action-bar-usp">
     <h2>USP</h2>
   </div>
@@ -28,4 +74,5 @@
   </div>
 </div>
 </body>
+<script src="javascript/navigation.js"></script>
 </html>

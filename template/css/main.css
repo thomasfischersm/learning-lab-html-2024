@@ -1,0 +1,156 @@
+/* CSS Document */
+:root {
+	--header-bg-color: yellow;
+	--footer-bg-color: green;
+    --content-bg-color: purple;
+}
+
+html, body {
+  /*  margin: 0;*/
+  /*  padding: 0;*/
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+.content {
+  max-width: 600px;
+  background-color: var(--content-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  padding-top: 1px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.content:not(:last-child) {
+  border-bottom: 5px solid white;
+}
+.content-image {
+  display: block;
+  margin: 0 auto;
+}
+.header-bar {
+  position: fixed;
+  margin-top: auto;
+  top: 0px;
+  background-color: var(--header-bg-color);
+  max-width: 600px;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+	text-align: left;
+}
+.header-text {
+	flex: 1;
+	text-align: center;
+}
+.header-placeholder {
+	visibility: hidden;
+}
+.navigation {
+/*
+    position: fixed;
+    top: 0;
+    left: 0;
+*/
+    width: 100%;
+    height: 50px;
+/*    background-color: #f0f0f0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10; /* Ensure menu is above content */
+}
+
+.navigation-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20px;
+    height: 20px;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #f0f0f0;
+	margin: 5px;
+}
+
+.navigation-toggle span {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.navigation-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; /* Smooth animation */
+}
+
+.navigation-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-menu li {
+    margin: 10px 0;
+}
+
+.navigation-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Show navigation menu on click */
+.navigation-toggle:hover .navigation-menu,
+.navigation-menu.active {
+    display: flex;
+}
+.action-bar {
+  position: fixed;
+  margin-top: auto;
+  bottom: 0px;
+  background-color: var(--footer-bg-color);
+  max-width: 600px;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.header-placeholder {
+	visibility: hidden;
+}
+.action-bar-usp {
+  flex: 1;
+  text-align: center;
+}
+.action-bar-button {
+  text-align: right;
+}
