@@ -1,5 +1,5 @@
 // Code for the site navigation.
-const toggleButton = 	document.querySelector('.navigation-toggle');
+const toggleButton = document.querySelector('.navigation-toggle');
 const navigationMenu = document.querySelector('.navigation-menu');
 
 toggleButton.addEventListener('click', () => {
@@ -10,13 +10,30 @@ toggleButton.addEventListener('click', () => {
 const menuLinks = document.querySelectorAll('.navigation-menu a');
 
 menuLinks.forEach(link => {
-  link.addEventListener('click', function() {
+  link.addEventListener('click', function () {
     const sectionId = this.getAttribute('href');
     const sectionElement = document.querySelector(sectionId);
 
     if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
+      sectionElement.scrollIntoView({
+        behavior: 'smooth'
+      });
       navigationMenu.classList.remove('active'); // Close menu after click
+      console.log('foreach triggered');
     }
   });
-});// JavaScript Document
+});
+
+// Hide the navigation menu if the user clicks outside of it.
+document.addEventListener('click', function (event) {
+  var isClickInsideNav = navigationMenu.contains(event.target);
+  var isNavIcon = toggleButton.contains(event.target);
+
+  if (!isClickInsideNav && !isNavIcon) {
+    // Code to hide your navigation menu
+    navigationMenu.classList.remove('active');
+	  console.log('click triggered');
+  }
+}, )
+
+// JavaScript Document

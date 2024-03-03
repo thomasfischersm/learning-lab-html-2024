@@ -38,13 +38,13 @@ function syncElementWidth(srcElementCss, targetElementCss) {
 </head>
 
 <body>
-<article class="content">
+<article class="content" id="home">
   <h1>Welcome</h1>
   <div class="youtube-container">
     <iframe src="https://www.youtube.com/embed/ER1Ckr00ynQ?si=b7LNub7Y1Z9ncht5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </article>
-<article class="content">
+<article class="content" id="benefits">
   <h1>Benefits</h1>
   <h2>Great fun</h2>
   <p>asdfadsfads asdf asdf adsf </p>
@@ -55,9 +55,13 @@ function syncElementWidth(srcElementCss, targetElementCss) {
       <div class="navigation-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </div>
       <nav class="navigation-menu">
         <ul>
-          <li><a href="#section1">Section 1</a></li>
-          <li><a href="#section2">Section 2</a></li>
-          <li><a href="#section3">Section 3</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#section3">First Time Experience</a></li>
+          <li><a href="#section4">Sensual Bachata</a></li>
+          <li><a href="#section5">Teaching Philosophy</a></li>
+          <li><a href="#section6">About Thomas</a></li>
+          <li><a href="#section7">About Learning Labs</a></li>
         </ul>
       </nav>
     </div>
@@ -72,8 +76,13 @@ function syncElementWidth(srcElementCss, targetElementCss) {
   <div class="action-bar-usp">
     <h2>USP</h2>
   </div>
-  <div class="action-bar-button">
-    <input class="pillboxButton" type="button" value="sign up"/>
+  <div class="action-bar-button"> 
+	  <div><a href="https://www.instagram.com/sensualbachatalabnyc/"><img class="insta-icon" src="images/Instagram_Glyph_Black.png" alt="instagram logo" onmouseover="this.src='images/Instagram_Glyph_Gradient.png';" onmouseout="this.src='images/Instagram_Glyph_Black.png';"/></a>
+	  </div><div>
+    <form method="get" action="https://eventbrite.com">
+      <input class="pillboxButton" type="button" value="sign up"/>
+    </form>
+		  </div>
   </div>
 </div>
 </body>
