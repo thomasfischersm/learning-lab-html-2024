@@ -73,6 +73,11 @@ p {
 	flex: 1;
 	text-align: center;
 }
+.header-text > h2 {
+	font-size: 2.7vh;
+/*	font-size: 100%;*/
+/*	color: red;*/
+}
 .header-placeholder {
 	visibility: hidden;
 }
@@ -96,17 +101,21 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+/*
     width: 20px;
     height: 20px;
-	border-radius: 5px;
-	padding: 5px;
+*/
+	width: 2.7vh;
+	height: 2.7vh;
+	border-radius: 0.8vh;
+	padding: 0.8vh;
 	background-color: #f0f0f0;
-	margin: 5px;
+	margin: 0.5vh;
 }
 
 .navigation-toggle span {
     width: 100%;
-    height: 3px;
+    height: 0.3vh;
     background-color: black;
 }
 
@@ -115,7 +124,7 @@ p {
     top: 0;
     left: 0;
 	margin: 5px;
-	padding: 10px;
+	padding: 5vh;
     background-color: white;
 	color: black;
     display: none; /* Initially hidden */
@@ -138,7 +147,7 @@ p {
 .navigation-menu a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
+	font-size: 4vh;
 }
 
 /* Show navigation menu on click */
@@ -163,21 +172,24 @@ p {
 	visibility: hidden;
 }
 .action-bar-usp {
-  flex: 1;
-  text-align: center;
+  	flex: 1;
+  	text-align: center;
 }
+.action-bar-usp > h2 {
+	font-size: 1.8vh;}
 .action-bar-button {
 	display: flex;
-  text-align: right;
+  	text-align: right;
 	align-items: center;
 }
 .insta-icon {
-	width: 25px;
-	margin-right: 10px;
-	height: 25px;
+	width: 5vh;
+	margin-right: 1vh;
+	height: 5vh;
+	vertical-align: middle;
 }
 .pillboxButton {
-    padding: 10px 20px; /* Adjust padding to suit your needs */
+    padding: 1vh 3vh; /* Adjust padding to suit your needs */
     background-color: #007bff; /* Choose your preferred button color */
     color: white; /* Text color */
     border: none; /* No border */
@@ -185,6 +197,8 @@ p {
     font-size: 16px; /* Font size */
     cursor: pointer; /* Change cursor on hover */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
+	font-size: 3vh;
+	margin-right: 2vh;
 }
 
 .pillboxButton:hover {
