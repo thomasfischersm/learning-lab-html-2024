@@ -1,12 +1,10 @@
-/* CSS Document */
-:root {
-	--header-bg-color: yellow;
-	--footer-bg-color: green;
-    --content-bg-color: purple;
+/* CSS Document */ :root {
+  --header-bg-color: yellow;
+  --footer-bg-color: green;
+  --content-bg-color: purple;
 }
-
 html, body {
-    margin: 0;
+  margin: 0;
   /*  padding: 0;*/
   margin-top: 0;
   width: 100%;
@@ -24,7 +22,7 @@ p {
   font-size: 16px;
 }
 .content {
-/*  max-width: 600px;*/
+  /*  max-width: 600px;*/
   background-color: var(--content-bg-color);
   margin-left: auto;
   margin-right: auto;
@@ -41,25 +39,37 @@ p {
   display: block;
   margin: 0 auto;
 }
+.site-info {
+  background-color: var(--content-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 1px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.site-info > p {
+  font-size: 1.8vh;
+	}
 .youtube-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625) */
-    height: 0;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625) */
+  height: 0;
 }
 .youtube-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .header-bar {
   position: fixed;
   margin-top: auto;
   top: 0px;
   background-color: var(--header-bg-color);
-/*  max-width: 600px;*/
+  /*  max-width: 600px;*/
   width: 100%;
   left: 50%;
   transform: translate(-50%);
@@ -68,101 +78,93 @@ p {
   align-items: center;
 }
 .header-nav {
-	text-align: left;
+  text-align: left;
 }
 .header-text {
-	flex: 1;
-	text-align: center;
+  flex: 1;
+  text-align: center;
 }
 .header-text > h2 {
-	font-size: 2.7vh;
-/*	font-size: 100%;*/
-/*	color: red;*/
+  font-size: 2.7vh;
+  /*	font-size: 100%;*/
+  /*	color: red;*/
 }
 .header-placeholder {
-	visibility: hidden;
+  visibility: hidden;
 }
 .navigation {
-/*
+  /*
     position: fixed;
     top: 0;
     left: 0;
 */
-    width: 100%;
-    height: 50px;
-/*    background-color: #f0f0f0;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10; /* Ensure menu is above content */
+  width: 100%;
+  height: 50px;
+  /*    background-color: #f0f0f0;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10; /* Ensure menu is above content */
 }
-
 .navigation-toggle {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-/*
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*
     width: 20px;
     height: 20px;
 */
-	width: 2.7vh;
-	height: 2.7vh;
-	border-radius: 0.8vh;
-	padding: 0.8vh;
-	background-color: #f0f0f0;
-	margin: 0.5vh;
+  width: 2.7vh;
+  height: 2.7vh;
+  border-radius: 0.8vh;
+  padding: 0.8vh;
+  background-color: #f0f0f0;
+  margin: 0.5vh;
 }
-
 .navigation-toggle span {
-    width: 100%;
-    height: 0.3vh;
-    background-color: black;
+  width: 100%;
+  height: 0.3vh;
+  background-color: black;
 }
-
 .navigation-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-	margin: 5px;
-	padding: 5vh;
-    background-color: white;
-	color: black;
-    display: none; /* Initially hidden */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease; /* Smooth animation */
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  padding: 5vh;
+  background-color: white;
+  color: black;
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease; /* Smooth animation */
 }
-
 .navigation-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
 .navigation-menu li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-
 .navigation-menu a {
-    color: black;
-    text-decoration: none;
-	font-size: 4vh;
-	line-height: 1.5;
+  color: black;
+  text-decoration: none;
+  font-size: 4vh;
+  line-height: 1.5;
 }
-
 /* Show navigation menu on click */
-.navigation-toggle:hover .navigation-menu,
-.navigation-menu.active {
-    display: flex;
+.navigation-toggle:hover .navigation-menu, .navigation-menu.active {
+  display: flex;
 }
 .action-bar {
   position: fixed;
   margin-top: auto;
   bottom: 0px;
   background-color: var(--footer-bg-color);
-/*  max-width: 600px;*/
+  /*  max-width: 600px;*/
   width: 100%;
   left: 50%;
   transform: translate(-50%);
@@ -171,57 +173,60 @@ p {
   align-items: center;
 }
 .action-bar-placeholder {
-	visibility: hidden;
+  visibility: hidden;
 }
 .action-bar-usp {
-  	flex: 1;
-  	text-align: center;
+  flex: 1;
+  text-align: center;
 }
 .action-bar-usp > h2 {
-	font-size: 1.8vh;}
+  font-size: 1.8vh;
+}
 .action-bar-button {
-	display: flex;
-  	text-align: right;
-	align-items: center;
+  display: flex;
+  text-align: right;
+  align-items: center;
 }
 .insta-icon {
-	width: 5vh;
-	margin-right: 1vh;
-	height: 5vh;
-	vertical-align: middle;
+  width: 5vh;
+  margin-right: 1vh;
+  height: 5vh;
+  vertical-align: middle;
 }
 .pillboxButton {
-    padding: 1vh 3vh; /* Adjust padding to suit your needs */
-    background-color: #007bff; /* Choose your preferred button color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 50px; /* High border-radius to create the pill shape */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Change cursor on hover */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-	font-size: 3vh;
-	margin-right: 2vh;
+  padding: 1vh 3vh; /* Adjust padding to suit your needs */
+  background-color: #007bff; /* Choose your preferred button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 50px; /* High border-radius to create the pill shape */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: 3vh;
+  margin-right: 2vh;
 }
-
 .pillboxButton:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3; /* Darker shade on hover */
 }
-
 @media (min-width: 768px) {
-	body {
-		margin-left: 8px;
-		margin-right: 8px;
-	}
-	.content {
-		width: calc(100vh * 9 / 16);
-        max-width: 100%; 
-	}
-	.header-bar {
-		width: calc(100vh * 9 / 16);
-        max-width: 100%; 		
-	}
-	.action-bar {
-		width: calc(100vh * 9 / 16);
-        max-width: 100%; 		
-	}
+  body {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .content {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
+  .site-info {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
+  .header-bar {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
+  .action-bar {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
 }

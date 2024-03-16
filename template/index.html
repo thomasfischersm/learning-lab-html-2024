@@ -55,6 +55,13 @@ function syncAllElements() {
 		contentDiv.style.paddingTop = headerBarHeight + 'px';
 		contentDiv.style.paddingBottom = footerBarHeight + 'px';
 	});
+	
+	var siteInfoDivs = document.querySelectorAll('.site-info');
+	
+	siteInfoDivs.forEach(siteInfoDiv => {
+		siteInfoDiv.style.paddingBottom = footerBarHeight + 'px';
+	});
+
 }	
 	
 function syncElementWidth(srcElementCss, targetElementCss) {
@@ -83,6 +90,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Great fun</h2>
   <p>asdfadsfads asdf asdf adsf </p>
   <img class="content-image" src="images/unsplash.jpg" style="height: 100px"/> </article>
+	<article class="site-info">
+		<p><a href="terms.html">Terms of Use</a> - <a href="privacy-policy.html">Privacy Policy</a></p>
+		<p>Contact: <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
+		<p>(C) 2024 Thomas Fischer</p>
+	</article>
 <div class="header-bar">
   <div class="header-nav">
     <div class="navigation">
