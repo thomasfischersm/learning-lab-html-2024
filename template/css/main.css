@@ -1,8 +1,154 @@
-/* CSS Document */ :root {
-  --header-bg-color: yellow;
-  --footer-bg-color: green;
-  --content-bg-color: purple;
+/* CSS Document */ 
+/* Learning Lab For Educators color scheme v7 */
+:root {
+  --header-bg-color: #5B6F7B; /* A deeper shade of blue for higher contrast */
+  --header-font-color: #FFFFFF; /* Pure white for maximum readability */
+  --footer-bg-color: #228B22; /* Bright Orange for Sub-brand */
+  --footer-font-color: #FFFDD0; /* Dark Gray for Text */
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFFDD0; /* Bright Orange for CTA Button */
+  --action-button-font-color: #228B22; /* White for CTA Text */
 }
+
+/* Bachata Learning Lab color scheme v7 */
+/*:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #228B22; /* Bright Orange for Sub-brand */
+  --footer-font-color: #FFFDD0; /* Dark Gray for Text */
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFFDD0; /* Bright Orange for CTA Button */
+  --action-button-font-color: #228B22; /* White for CTA Text */
+}*/
+
+/* Bachata Learning Lab color scheme RC */
+/*:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #800020; /* Bright Orange for Sub-brand */
+  --footer-font-color: #FFB6C1; /* Dark Gray for Text */
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFB6C1; /* Bright Orange for CTA Button */
+  --action-button-font-color: #800020; /* White for CTA Text */
+}*/
+
+/* Acroyoga Learning color scheme RC */
+/*:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #FFDF00; /* Bright Orange for Sub-brand */
+  --footer-font-color: #918159; /* Dark Gray for Text */
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #918159; /* Bright Orange for CTA Button */
+  --action-button-font-color: #FFDF00; /* White for CTA Text */
+}*/
+
+/* Acroyoga color scheme v6 */
+/*
+:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #38761D;
+  --footer-font-color: #E0FFFF;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #E0FFFF;
+  --action-button-font-color: #38761D;
+}
+*/
+/* Learning Lab For Educators scheme v5 */
+/*
+:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #0B6623;
+  --footer-font-color: #FFFDD0;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFFDD0;
+  --action-button-font-color: #0B6623;
+}
+*/
+/* Acroyoga color scheme v5 */
+/*
+:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #005377;
+  --footer-font-color: #F8F0E3;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #F8F0E3;
+  --action-button-font-color: #005377;
+}
+*/
+/* Sensual bachata color scheme v5 */
+/*
+:root {
+  --header-bg-color: #708090	;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #800020;
+  --footer-font-color: #DAA520;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #DAA520;
+  --action-button-font-color: #800020;
+}
+*/
+/* Sensual bachata color scheme v1: Elegant Energetic */
+/*
+:root {
+  --header-bg-color: #003366;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #FFA500;
+  --footer-font-color: #FFFFFF;
+  --content-bg-color: #008080;
+  --content-font-color: #FFFFFF;
+  --margin-bg-color: #FF6B6B;
+  --action-button-color: #32CD32;
+  --action-button-font-color: #FFFFFF;
+}
+*/
+/* Sensual bachata color scheme v4: Subdued Elegance */
+/*
+:root {
+  --header-bg-color: #76C1B4;
+  --header-font-color: #004C4A;
+  --footer-bg-color: #C48793;
+  --footer-font-color: #FFFDD0;
+  --content-bg-color: #FFFDD0;
+  --content-font-color: #004C4A;
+  --margin-bg-color: #A8A8A8;
+  --action-button-color: #F88379;
+  --action-button-font-color: #FFFDD0;
+}
+*/
+/* Sensual bachata color scheme v3: Modern Vibrance*/
+/*
+:root {
+  --header-bg-color: #191970;
+  --header-font-color: #FFB6C1;
+  --footer-bg-color: #800020;
+  --footer-font-color: #FFFDD0;
+  --content-bg-color: #FFB6C1;
+  --content-font-color: #191970;
+  --margin-bg-color: #800020;
+  --action-button-color: #FFDF00;
+  --action-button-font-color: #191970;
+}
+*/
 html, body {
   margin: 0;
   /*  padding: 0;*/
@@ -11,6 +157,8 @@ html, body {
   height: 100%;
   overflow-x: hidden;
   font-family: Lato, sans-serif;
+  background-color: var(--margin-bg-color);
+  color: var(--content-font-color);
 }
 h1 {
   font-size: 24px;
@@ -50,7 +198,7 @@ p {
 }
 .site-info > p {
   font-size: 1.8vh;
-	}
+}
 .youtube-container {
   position: relative;
   width: 100%;
@@ -69,6 +217,7 @@ p {
   margin-top: auto;
   top: 0px;
   background-color: var(--header-bg-color);
+  color: var(--header-font-color);
   /*  max-width: 600px;*/
   width: 100%;
   left: 50%;
@@ -164,6 +313,7 @@ p {
   margin-top: auto;
   bottom: 0px;
   background-color: var(--footer-bg-color);
+  color: var(--footer-font-color);
   /*  max-width: 600px;*/
   width: 100%;
   left: 50%;
@@ -195,8 +345,8 @@ p {
 }
 .pillboxButton {
   padding: 1vh 3vh; /* Adjust padding to suit your needs */
-  background-color: #007bff; /* Choose your preferred button color */
-  color: white; /* Text color */
+  background-color: var(--action-button-color);
+  color: var(--action-button-font-color); /* Text color */
   border: none; /* No border */
   border-radius: 50px; /* High border-radius to create the pill shape */
   font-size: 16px; /* Font size */
