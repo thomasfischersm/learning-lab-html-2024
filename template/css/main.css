@@ -1,54 +1,67 @@
 /* CSS Document */ 
-/* Learning Lab For Educators color scheme v7 */
+
 :root {
-  --header-bg-color: #5B6F7B; /* A deeper shade of blue for higher contrast */
-  --header-font-color: #FFFFFF; /* Pure white for maximum readability */
-  --footer-bg-color: #228B22; /* Bright Orange for Sub-brand */
-  --footer-font-color: #FFFDD0; /* Dark Gray for Text */
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #800020; 
+  --footer-font-color: #FFB6C1; 
   --content-bg-color: #F5F5F5;
   --content-font-color: #333333;
   --margin-bg-color: #D3D3D3;
-  --action-button-color: #FFFDD0; /* Bright Orange for CTA Button */
-  --action-button-font-color: #228B22; /* White for CTA Text */
+  --action-button-color: #FFB6C1; 
+  --action-button-font-color: #800020;
 }
 
-/* Bachata Learning Lab color scheme v7 */
+/* Learning Lab For Educators color scheme v7 */
+/*:root {
+  --header-bg-color: #5B6F7B;
+  --header-font-color: #FFFFFF; 
+  --footer-bg-color: #228B22; 
+  --footer-font-color: #FFFDD0; 
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFFDD0; 
+  --action-button-font-color: #228B22;
+}*/
+
+/* Acroyoga Learning Lab color scheme v7 */
 /*:root {
   --header-bg-color: #708090;
   --header-font-color: #FFFFFF;
-  --footer-bg-color: #228B22; /* Bright Orange for Sub-brand */
-  --footer-font-color: #FFFDD0; /* Dark Gray for Text */
+  --footer-bg-color: #228B22; 
+  --footer-font-color: #FFFDD0; 
   --content-bg-color: #F5F5F5;
   --content-font-color: #333333;
   --margin-bg-color: #D3D3D3;
-  --action-button-color: #FFFDD0; /* Bright Orange for CTA Button */
-  --action-button-font-color: #228B22; /* White for CTA Text */
+  --action-button-color: #FFFDD0; 
+  --action-button-font-color: #228B22;
 }*/
 
 /* Bachata Learning Lab color scheme RC */
 /*:root {
   --header-bg-color: #708090;
   --header-font-color: #FFFFFF;
-  --footer-bg-color: #800020; /* Bright Orange for Sub-brand */
-  --footer-font-color: #FFB6C1; /* Dark Gray for Text */
+  --footer-bg-color: #800020; 
+  --footer-font-color: #FFB6C1; 
   --content-bg-color: #F5F5F5;
   --content-font-color: #333333;
   --margin-bg-color: #D3D3D3;
-  --action-button-color: #FFB6C1; /* Bright Orange for CTA Button */
-  --action-button-font-color: #800020; /* White for CTA Text */
+  --action-button-color: #FFB6C1; 
+  --action-button-font-color: #800020;
 }*/
 
 /* Acroyoga Learning color scheme RC */
 /*:root {
   --header-bg-color: #708090;
   --header-font-color: #FFFFFF;
-  --footer-bg-color: #FFDF00; /* Bright Orange for Sub-brand */
-  --footer-font-color: #918159; /* Dark Gray for Text */
+  --footer-bg-color: #FFDF00; 
+  --footer-font-color: #918159; 
   --content-bg-color: #F5F5F5;
   --content-font-color: #333333;
   --margin-bg-color: #D3D3D3;
-  --action-button-color: #918159; /* Bright Orange for CTA Button */
-  --action-button-font-color: #FFDF00; /* White for CTA Text */
+  --action-button-color: #918159; 
+  --action-button-font-color: #FFDF00; 
 }*/
 
 /* Acroyoga color scheme v6 */
