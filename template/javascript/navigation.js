@@ -13,13 +13,21 @@ menuLinks.forEach(link => {
   link.addEventListener('click', function () {
     const sectionId = this.getAttribute('href');
     const sectionElement = document.querySelector(sectionId);
+    //    const headerBar = document.querySelector('.header-bar');
+    //    const headerHeight = headerBar ? headerBar.offsetHeight : 0;
 
     if (sectionElement) {
+      //      const elementPosition = sectionElement.getBoundingClientRect().top + window.pageYOffset;
+      //      window.scrollTo({
+      //        top: elementPosition - headerHeight,
+      //        behavior: 'smooth'
+      //      });
+
       sectionElement.scrollIntoView({
         behavior: 'smooth'
       });
       navigationMenu.classList.remove('active'); // Close menu after click
-      console.log('foreach triggered');
+      //      console.log('foreach triggered');
     }
   });
 });
@@ -32,7 +40,7 @@ document.addEventListener('click', function (event) {
   if (!isClickInsideNav && !isNavIcon) {
     // Code to hide your navigation menu
     navigationMenu.classList.remove('active');
-	  console.log('click triggered');
+    //	  console.log('click triggered');
   }
 }, )
 
