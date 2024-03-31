@@ -1,0 +1,441 @@
+/* CSS Document */ :root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #800020;
+  --footer-font-color: #FFB6C1;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFB6C1;
+  --action-button-font-color: #800020;
+}
+/* Learning Lab For Educators color scheme v7 */
+/*:root {
+  --header-bg-color: #5B6F7B;
+  --header-font-color: #FFFFFF; 
+  --footer-bg-color: #228B22; 
+  --footer-font-color: #FFFDD0; 
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFFDD0; 
+  --action-button-font-color: #228B22;
+}*/
+/* Acroyoga Learning Lab color scheme v7 */
+/*:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #228B22; 
+  --footer-font-color: #FFFDD0; 
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFFDD0; 
+  --action-button-font-color: #228B22;
+}*/
+/* Bachata Learning Lab color scheme RC */
+/*:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #800020; 
+  --footer-font-color: #FFB6C1; 
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFB6C1; 
+  --action-button-font-color: #800020;
+}*/
+/* Acroyoga Learning color scheme RC */
+/*:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #FFDF00; 
+  --footer-font-color: #918159; 
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #918159; 
+  --action-button-font-color: #FFDF00; 
+}*/
+/* Acroyoga color scheme v6 */
+/*
+:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #38761D;
+  --footer-font-color: #E0FFFF;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #E0FFFF;
+  --action-button-font-color: #38761D;
+}
+*/
+/* Learning Lab For Educators scheme v5 */
+/*
+:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #0B6623;
+  --footer-font-color: #FFFDD0;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #FFFDD0;
+  --action-button-font-color: #0B6623;
+}
+*/
+/* Acroyoga color scheme v5 */
+/*
+:root {
+  --header-bg-color: #708090;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #005377;
+  --footer-font-color: #F8F0E3;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #F8F0E3;
+  --action-button-font-color: #005377;
+}
+*/
+/* Sensual bachata color scheme v5 */
+/*
+:root {
+  --header-bg-color: #708090	;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #800020;
+  --footer-font-color: #DAA520;
+  --content-bg-color: #F5F5F5;
+  --content-font-color: #333333;
+  --margin-bg-color: #D3D3D3;
+  --action-button-color: #DAA520;
+  --action-button-font-color: #800020;
+}
+*/
+/* Sensual bachata color scheme v1: Elegant Energetic */
+/*
+:root {
+  --header-bg-color: #003366;
+  --header-font-color: #FFFFFF;
+  --footer-bg-color: #FFA500;
+  --footer-font-color: #FFFFFF;
+  --content-bg-color: #008080;
+  --content-font-color: #FFFFFF;
+  --margin-bg-color: #FF6B6B;
+  --action-button-color: #32CD32;
+  --action-button-font-color: #FFFFFF;
+}
+*/
+/* Sensual bachata color scheme v4: Subdued Elegance */
+/*
+:root {
+  --header-bg-color: #76C1B4;
+  --header-font-color: #004C4A;
+  --footer-bg-color: #C48793;
+  --footer-font-color: #FFFDD0;
+  --content-bg-color: #FFFDD0;
+  --content-font-color: #004C4A;
+  --margin-bg-color: #A8A8A8;
+  --action-button-color: #F88379;
+  --action-button-font-color: #FFFDD0;
+}
+*/
+/* Sensual bachata color scheme v3: Modern Vibrance*/
+/*
+:root {
+  --header-bg-color: #191970;
+  --header-font-color: #FFB6C1;
+  --footer-bg-color: #800020;
+  --footer-font-color: #FFFDD0;
+  --content-bg-color: #FFB6C1;
+  --content-font-color: #191970;
+  --margin-bg-color: #800020;
+  --action-button-color: #FFDF00;
+  --action-button-font-color: #191970;
+}
+*/
+html, body {
+  margin: 0;
+  /*  padding: 0;*/
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: Lato, sans-serif;
+  background-color: var(--margin-bg-color);
+  color: var(--content-font-color);
+}
+h1 {
+  font-size: 3.75vh;
+}
+h2 {
+  font-size: 2.1vh;
+}
+p, li {
+  font-size: 1.7vh;
+}
+li {
+  margin-bottom: 0.3vh;
+}
+.content {
+  /*  max-width: 600px;*/
+  background-color: var(--content-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100vh;
+  padding-top: 1px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.content:not(:last-child) {
+  border-bottom: 5px solid white;
+}
+.content-image {
+  display: block;
+  margin: 0 auto;
+}
+.site-info {
+  background-color: var(--content-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 1px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.site-info > p {
+  font-size: 1.8vh;
+}
+.youtube-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625) */
+  height: 0;
+}
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.youtube-carousel1, .youtube-carousel2, .youtube-carousel3, .youtube-carousel4 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.carousel-item {
+  display: none;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625) */
+  height: 0;
+}
+.carousel-item iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+.carousel-item-active {
+  display: block;
+}
+.youtube-carousel-prev, .youtube-carousel-next {
+  cursor: pointer;
+  position: relative;
+/*
+  top: 50%;
+  transform: translateY(-50%);
+*/
+  background-color: #fff;
+  border: none;
+/*  padding: 10px;*/
+  font-size: 18px;
+/*  flex-shrink: 0;*/
+  width: 5vh;
+  height: 5vh;
+  margin: 1vh;
+	    flex-shrink: 0;
+    padding: 0; /* Remove padding to maintain the square shape */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+.youtube-carousel-prev {
+  /*  left: 10px;*/
+}
+.youtube-carousel-next {
+  /*  right: 10px;*/
+}
+.header-bar {
+  position: fixed;
+  margin-top: auto;
+  top: 0px;
+  background-color: var(--header-bg-color);
+  color: var(--header-font-color);
+  /*  max-width: 600px;*/
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  text-align: left;
+}
+.header-text {
+  flex: 1;
+  text-align: center;
+}
+.header-text > h2 {
+  font-size: 2.7vh;
+  /*	font-size: 100%;*/
+  /*	color: red;*/
+}
+.header-placeholder {
+  visibility: hidden;
+}
+.navigation {
+  /*
+    position: fixed;
+    top: 0;
+    left: 0;
+*/
+  width: 100%;
+  height: 50px;
+  /*    background-color: #f0f0f0;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10; /* Ensure menu is above content */
+}
+.navigation-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*
+    width: 20px;
+    height: 20px;
+*/
+  width: 2.7vh;
+  height: 2.7vh;
+  border-radius: 0.8vh;
+  padding: 0.8vh;
+  background-color: #f0f0f0;
+  margin: 0.5vh;
+}
+.navigation-toggle span {
+  width: 100%;
+  height: 0.3vh;
+  background-color: black;
+}
+.navigation-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  padding: 5vh;
+  background-color: white;
+  color: black;
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease; /* Smooth animation */
+}
+.navigation-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigation-menu li {
+  margin: 10px 0;
+}
+.navigation-menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 3.4vh;
+  line-height: 1.5;
+}
+/* Show navigation menu on click */
+.navigation-toggle:hover .navigation-menu, .navigation-menu.active {
+  display: flex;
+}
+.action-bar {
+  position: fixed;
+  margin-top: auto;
+  bottom: 0px;
+  background-color: var(--footer-bg-color);
+  color: var(--footer-font-color);
+  /*  max-width: 600px;*/
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.action-bar-placeholder {
+  visibility: hidden;
+}
+.action-bar-usp {
+  flex: 1;
+  text-align: center;
+}
+.action-bar-usp > h2 {
+  font-size: 1.8vh;
+}
+.action-bar-button {
+  display: flex;
+  text-align: right;
+  align-items: center;
+}
+.insta-icon {
+  width: 5vh;
+  margin-right: 1vh;
+  height: 5vh;
+  vertical-align: middle;
+}
+.pillboxButton {
+  padding: 1vh 3vh; /* Adjust padding to suit your needs */
+  background-color: var(--action-button-color);
+  color: var(--action-button-font-color); /* Text color */
+  border: none; /* No border */
+  border-radius: 50px; /* High border-radius to create the pill shape */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: 3vh;
+  margin-right: 2vh;
+}
+.pillboxButton:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+@media (min-width: 768px) {
+  body {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .content {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
+  .site-info {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
+  .header-bar {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
+  .action-bar {
+    width: calc(100vh * 9 / 16);
+    max-width: 100%;
+  }
+}
