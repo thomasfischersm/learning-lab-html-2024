@@ -44,4 +44,36 @@ document.addEventListener('click', function (event) {
   }
 }, )
 
+
+// YouTube Carousel code
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.youtube-carousel-prev').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var carouselClass = this.parentElement.className;
+      moveCarousel(-1, carouselClass);
+    });
+  });
+
+  document.querySelectorAll('.youtube-carousel-next').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var carouselClass = this.parentElement.className;
+      moveCarousel(1, carouselClass);
+    });
+  });
+});
+
+function moveCarousel(step, carouselClass) {
+  var carousel = document.querySelector('.' + carouselClass);
+  var items = carousel.querySelectorAll('.carousel-item');
+  var activeIndex = Array.from(items).findIndex(item => item.classList.contains('carousel-item-active'));
+
+  items[activeIndex].classList.remove('carousel-item-active');
+
+  var newIndex = activeIndex + step;
+  if (newIndex >= items.length) newIndex = items.length - 1;
+  if (newIndex < 0) newIndex = 0;
+
+  items[newIndex].classList.add('carousel-item-active');
+}
+
 // JavaScript Document

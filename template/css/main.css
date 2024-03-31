@@ -1,17 +1,14 @@
-/* CSS Document */ 
-
-:root {
+/* CSS Document */ :root {
   --header-bg-color: #708090;
   --header-font-color: #FFFFFF;
-  --footer-bg-color: #800020; 
-  --footer-font-color: #FFB6C1; 
+  --footer-bg-color: #800020;
+  --footer-font-color: #FFB6C1;
   --content-bg-color: #F5F5F5;
   --content-font-color: #333333;
   --margin-bg-color: #D3D3D3;
-  --action-button-color: #FFB6C1; 
+  --action-button-color: #FFB6C1;
   --action-button-font-color: #800020;
 }
-
 /* Learning Lab For Educators color scheme v7 */
 /*:root {
   --header-bg-color: #5B6F7B;
@@ -24,7 +21,6 @@
   --action-button-color: #FFFDD0; 
   --action-button-font-color: #228B22;
 }*/
-
 /* Acroyoga Learning Lab color scheme v7 */
 /*:root {
   --header-bg-color: #708090;
@@ -37,7 +33,6 @@
   --action-button-color: #FFFDD0; 
   --action-button-font-color: #228B22;
 }*/
-
 /* Bachata Learning Lab color scheme RC */
 /*:root {
   --header-bg-color: #708090;
@@ -50,7 +45,6 @@
   --action-button-color: #FFB6C1; 
   --action-button-font-color: #800020;
 }*/
-
 /* Acroyoga Learning color scheme RC */
 /*:root {
   --header-bg-color: #708090;
@@ -63,7 +57,6 @@
   --action-button-color: #918159; 
   --action-button-font-color: #FFDF00; 
 }*/
-
 /* Acroyoga color scheme v6 */
 /*
 :root {
@@ -179,11 +172,11 @@ h1 {
 h2 {
   font-size: 2.1vh;
 }
-p,li {
+p, li {
   font-size: 1.7vh;
 }
 li {
-	margin-bottom: 0.3vh;
+  margin-bottom: 0.3vh;
 }
 .content {
   /*  max-width: 600px;*/
@@ -227,6 +220,56 @@ li {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.youtube-carousel1, .youtube-carousel2, .youtube-carousel3, .youtube-carousel4 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.carousel-item {
+  display: none;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625) */
+  height: 0;
+}
+.carousel-item iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+.carousel-item-active {
+  display: block;
+}
+.youtube-carousel-prev, .youtube-carousel-next {
+  cursor: pointer;
+  position: relative;
+/*
+  top: 50%;
+  transform: translateY(-50%);
+*/
+  background-color: #fff;
+  border: none;
+/*  padding: 10px;*/
+  font-size: 18px;
+/*  flex-shrink: 0;*/
+  width: 5vh;
+  height: 5vh;
+  margin: 1vh;
+	    flex-shrink: 0;
+    padding: 0; /* Remove padding to maintain the square shape */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+.youtube-carousel-prev {
+  /*  left: 10px;*/
+}
+.youtube-carousel-next {
+  /*  right: 10px;*/
 }
 .header-bar {
   position: fixed;
