@@ -27,7 +27,7 @@ menuLinks.forEach(link => {
         behavior: 'smooth'
       });
       navigationMenu.classList.remove('active'); // Close menu after click
-      //      console.log('foreach triggered');
+//            console.log('foreach triggered');
     }
   });
 });

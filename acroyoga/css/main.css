@@ -1,4 +1,4 @@
-/* CSS Document */ :root {
+	/* CSS Document */ :root {
   --header-bg-color: #708090;
   --header-font-color: #FFFFFF;
   --footer-bg-color: #228B22; 
@@ -176,7 +176,7 @@ p, li {
   font-size: 1.7vh;
 }
 li {
-  margin-bottom: 0.3vh;
+  margin-bottom: 0.4vh;
 }
 .content {
   /*  max-width: 600px;*/
