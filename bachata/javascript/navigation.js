@@ -42,7 +42,7 @@ document.addEventListener('click', function (event) {
     navigationMenu.classList.remove('active');
     //	  console.log('click triggered');
   }
-}, )
+},)
 
 
 // YouTube Carousel code
@@ -77,38 +77,38 @@ function moveCarousel(step, carouselClass) {
 }
 
 // Code for upcoming special events
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const events = [
     {
-        "name": "Free Spring Open House 7:30 PM",
-        "date": "2024-04-19"
+      "name": "Free Spring Open House 7:30 PM",
+      "date": "2024-04-19"
     },
     {
-        "name": "4-Week Absolute Beginner Cycle 7:30 PM",
-        "date": "2024-04-26"
+      "name": "4-Week Absolute Beginner Cycle 7:30 PM",
+      "date": "2024-04-26"
     }
   ];
-          const container = document.querySelector('.events-container');
-          const upcomingEvents = events.filter(event => new Date(event.date) >= new Date());
+  const container = document.querySelector('.events-container');
+  const upcomingEvents = events.filter(event => new Date(event.date) >= new Date());
 
-          if (upcomingEvents.length > 0) {
-              let htmlContent = '<p>Upcoming specials:</p><ul>';
-              
-              upcomingEvents.forEach(event => {
-                const eventDate = new Date(event.date);
-            const formattedDate = eventDate.toLocaleDateString('en-US', {
-                weekday: 'long', 
-                month: 'numeric', 
-                day: 'numeric', 
-                year: '2-digit'
-            });
-                  htmlContent += `<li>${event.name} - ${formattedDate}</li>`;
-              });
+  if (upcomingEvents.length > 0) {
+    let htmlContent = '<p>Upcoming specials:</p><ul>';
 
-              htmlContent += '</ul>';
-              container.innerHTML = htmlContent;
-          }
+    upcomingEvents.forEach(event => {
+      const eventDate = new Date(event.date);
+      const formattedDate = eventDate.toLocaleDateString('en-US', {
+        weekday: 'long',
+        month: 'numeric',
+        day: 'numeric',
+        year: '2-digit'
       });
+      htmlContent += `<li>${event.name} - ${formattedDate}</li>`;
+    });
+
+    htmlContent += '</ul>';
+    container.innerHTML = htmlContent;
+  }
+});
 
 
 // JavaScript Document
