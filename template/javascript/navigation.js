@@ -76,4 +76,47 @@ function moveCarousel(step, carouselClass) {
   items[newIndex].classList.add('carousel-item-active');
 }
 
+// Code for upcoming special events
+document.addEventListener("DOMContentLoaded", function() {
+  const events = [
+    {
+        "name": "Beginner's Acroyoga Workshop",
+        "date": "2023-05-15"
+    },
+    {
+        "name": "Intermediate Acroyoga Techniques",
+        "date": "2023-06-20"
+    },
+    {
+        "name": "Acroyoga for Couples",
+        "date": "2023-07-10"
+    },
+    {
+        "name": "Advanced Acroyoga Poses",
+        "date": "2024-08-05"
+    }
+  ];
+          const container = document.querySelector('.events-container');
+          const upcomingEvents = events.filter(event => new Date(event.date) >= new Date());
+
+          if (upcomingEvents.length > 0) {
+              let htmlContent = '<p>Upcoming specials:</p><ul>';
+              
+              upcomingEvents.forEach(event => {
+                const eventDate = new Date(event.date);
+            const formattedDate = eventDate.toLocaleDateString('en-US', {
+                weekday: 'long', 
+                month: 'numeric', 
+                day: 'numeric', 
+                year: '2-digit'
+            });
+                  htmlContent += `<li>${event.name} - ${formattedDate}</li>`;
+              });
+
+              htmlContent += '</ul>';
+              container.innerHTML = htmlContent;
+          }
+      });
+
+
 // JavaScript Document

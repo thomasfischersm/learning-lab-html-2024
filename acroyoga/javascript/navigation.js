@@ -27,7 +27,7 @@ menuLinks.forEach(link => {
         behavior: 'smooth'
       });
       navigationMenu.classList.remove('active'); // Close menu after click
-//            console.log('foreach triggered');
+      //      console.log('foreach triggered');
     }
   });
 });
@@ -75,5 +75,44 @@ function moveCarousel(step, carouselClass) {
 
   items[newIndex].classList.add('carousel-item-active');
 }
+
+// Code for upcoming special events
+document.addEventListener("DOMContentLoaded", function() {
+  const events = [
+    {
+        "name": "Free Spring Open House 6:00 PM",
+        "date": "2024-04-19"
+    },
+    {
+        "name": "4-Week Absolute Beginner Cycle 6:00 PM",
+        "date": "2024-04-26"
+    },
+    {
+        "name": "Free Community Spotting Clinic in CP",
+        "date": "2024-05-04"
+    }
+  ];
+          const container = document.querySelector('.events-container');
+          const upcomingEvents = events.filter(event => new Date(event.date) >= new Date());
+
+          if (upcomingEvents.length > 0) {
+              let htmlContent = '<p>Upcoming specials:</p><ul>';
+              
+              upcomingEvents.forEach(event => {
+                const eventDate = new Date(event.date);
+            const formattedDate = eventDate.toLocaleDateString('en-US', {
+                weekday: 'long', 
+                month: 'numeric', 
+                day: 'numeric', 
+                year: '2-digit'
+            });
+                  htmlContent += `<li>${event.name} - ${formattedDate}</li>`;
+              });
+
+              htmlContent += '</ul>';
+              container.innerHTML = htmlContent;
+          }
+      });
+
 
 // JavaScript Document
