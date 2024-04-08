@@ -97,13 +97,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   ];
   const container = document.querySelector('.events-container');
-  const upcomingEvents = events.filter(event => new Date(event.date) >= new Date());
+  const today = new Date();
+
+  const upcomingEvents = events.filter(event => {
+    const eventDate = new Date(event.date.replace(/-/g, '\/'));
+    return eventDate >= today;
+  });
 
   if (upcomingEvents.length > 0) {
     let htmlContent = '<p>Upcoming specials:</p><ul>';
 
     upcomingEvents.forEach(event => {
-      const eventDate = new Date(event.date);
+      const eventDate = new Date(event.date.replace(/-/g, '\/'));
       const formattedDate = eventDate.toLocaleDateString('en-US', {
         weekday: 'long',
         month: 'numeric',
@@ -111,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
         year: '2-digit'
       });
       htmlContent += `<li>${event.name} - ${formattedDate}</li>`;
+      console.log('asdf ' + eventDate + ' --- ' + formattedDate);
     });
 
     htmlContent += '</ul>';
