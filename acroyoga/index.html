@@ -1,169 +1,205 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Sensual Bachata Learning Lab</title>
-<!-- Fix before going live! -->
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <meta charset="utf-8">
+  <title>Sensual Bachata Learning Lab</title>
+  <!-- Fix before going live! -->
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-<!-- Google Tag Manager --> 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PWHCGZHQ');</script> 
-<!-- End Google Tag Manager --> 
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PWHCGZHQ');</script>
+  <!-- End Google Tag Manager -->
 
-<!-- Remove these before going live. -->
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
-<meta http-equiv="Pragma" content="no-cache"/>
-<meta http-equiv="Expires" content="0"/>
+  <!-- Remove these before going live. -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 
-<!-- Start cookieyes banner --> 
-<!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/0d8a0989f6fa4f47a0690306/script.js"></script>  --> 
-<!-- End cookieyes banner --> 
+  <!-- Start cookieyes banner -->
+  <!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/0d8a0989f6fa4f47a0690306/script.js"></script>  -->
+  <!-- End cookieyes banner -->
 
-<!-- Termly --> 
-<!--<script
+  <!-- Termly -->
+  <!--<script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/bdae4e4f-4c9e-4e2c-85fe-d9cfaf591a1f?autoBlock=on"
-></script>--> 
-<!-- End Termly -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-<script type="application/javascript">
-document.addEventListener('DOMContentLoaded', function() {
-	syncAllElements();
-});
+></script>-->
+  <!-- End Termly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script type="application/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      syncAllElements();
+    });
 
-window.onresize = function() {
-    syncAllElements();
-};
+    window.onresize = function () {
+      syncAllElements();
+    };
 
-function syncAllElements() {
-//	syncElementWidth('.header-nav', '.header-placeholder');
-//	syncElementWidth('.action-bar-button', '.action-bar-placeholder');
-	
-	// Sync header height to top padding.
-	var headerBarHeight = document.querySelector('.header-bar').offsetHeight;
-	var footerBarHeight = document.querySelector('.action-bar').offsetHeight;
-	var contentDivs = document.querySelectorAll('.content');
-	
-	contentDivs.forEach(contentDiv => {
-		contentDiv.style.paddingTop = headerBarHeight + 'px';
-		contentDiv.style.paddingBottom = footerBarHeight + 'px';
-	});
-	
-	var siteInfoDivs = document.querySelectorAll('.site-info');
-	
-	siteInfoDivs.forEach(siteInfoDiv => {
-		siteInfoDiv.style.paddingBottom = footerBarHeight + 'px';
-	});
+    function syncAllElements() {
+      //	syncElementWidth('.header-nav', '.header-placeholder');
+      //	syncElementWidth('.action-bar-button', '.action-bar-placeholder');
 
-}	
-	
-function syncElementWidth(srcElementCss, targetElementCss) {
-    var child1 = document.querySelector(srcElementCss);
-    var placeholder = document.querySelector(targetElementCss);
+      // Sync header height to top padding.
+      var headerBarHeight = document.querySelector('.header-bar').offsetHeight;
+      var footerBarHeight = document.querySelector('.action-bar').offsetHeight;
+      var contentDivs = document.querySelectorAll('.content');
 
-    placeholder.style.width = child1.offsetWidth + 'px';
-}
-</script>
+      contentDivs.forEach(contentDiv => {
+        contentDiv.style.paddingTop = headerBarHeight + 'px';
+        contentDiv.style.paddingBottom = footerBarHeight + 'px';
+      });
+
+      var siteInfoDivs = document.querySelectorAll('.site-info');
+
+      siteInfoDivs.forEach(siteInfoDiv => {
+        siteInfoDiv.style.paddingBottom = footerBarHeight + 'px';
+      });
+
+    }
+
+    function syncElementWidth(srcElementCss, targetElementCss) {
+      var child1 = document.querySelector(srcElementCss);
+      var placeholder = document.querySelector(targetElementCss);
+
+      placeholder.style.width = child1.offsetWidth + 'px';
+    }
+  </script>
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWHCGZHQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWHCGZHQ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-<article class="content" id="home">
-  <h1>Sweat & Smiles: <nobr>Acroyoga Sundays!</nobr></h1>
-  <p>Join Our Acroyoga Learning Lab!
-  <ul>
-    <li>Every Sunday 5 to 6:30 PM (rare exceptions)</li>
-    <li>Ripley-Grier (Midtown NYC)</li>
-    <li>No partner or prior experience required!</li>
-  </ul>
-  <div class="events-container"></div>
-  <p>Acroyoga is a playful practice where you work with partners to climb on top of each other. You'll learn safe techniques to base, fly, and spot together – no crazy strength required!</p>
-  <p><b>Turning Everyday People Into Happy Monkeys – That's Our Devious Plan.</b></p>
-  <p><a href="https://forms.gle/iewphwuWG29RRiZT8">Stay Updated - Get notified about our free introductory classes!</a> </p>
-  <div class="youtube-container">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EYtx3jJdamw?si=NBlzzhq-N3rGEDs-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</article>
-<article class="content" id="benefits">
-  <h1>Benefits</h1>
-  <h2>More Than Fitness</h2>
-  <p>Acroyoga combines strength, flexibility, and teamwork for a full-body workout that transforms your body and mind.<br/>
-    <br/>
-  </p>
-  <h2>Challenge & Connection</h2>
-  <p>Acroyoga builds trust and confidence as you push your limits with supportive partners.<br/>
-    <br/>
-  </p>
-  <h2>Learn & Grow</h2>
-  <p>Our innovative learning lab empowers you to progress at your own pace with personalized instruction.<br/>
-    <br/>
-  </p>
-  <div class="youtube-container">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q_zbJiGuIqA?si=sFXWBZp69cj0VDNT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</article>
-<article class="content" id="acroyoga">
-  <h1>What is Acroyoga?</h1>
-  <p>Acroyoga might surprise you! While it shares the word "yoga" in its name, it's a different beast entirely. Forget holding static stretches – acroyoga is all about <b>dynamic movement, playful exploration, and building trust with a partner.</b></p>
-  <p><b>Imagine a thrilling fusion of acrobatics and partner work:</b> You'll work together to create exciting poses where one person (the flyer) is lifted and supported by the other (the base). It can be as basic as a playful "bird pose" (aka "airplane" with little kids) or progress to more challenging inversions and transitions.</p>
-  </p>
-  <h2>Unveiling the Acroyoga Universe:</h2>
-  <ul>
-    <li><b>L-Base Vs. Standing:</b> In L-Base, the base lies on their back with the hands and arms free to move the flyer through the air. In Standing, the base stands, allowing the flyer to fly higher and also around the body of the base. (Standing includes dance lifts.)</li>
-    <li><b>Solar vs. Lunar:</b> Solar, like the sun, is an acroyoga practice that’s very energetic and circus like. Lunar, like the moon, is a practice that’s calming, relaxing, and healing.(Lunar includes Thai yoga.)</li>
-  </ul>
-  <div class="photo-container">
-    <img src="images/lightroom-4.jpg" style="max-height: 30vh;" alt="Foot-to-shin pose with big smiles"/>
-  </div>
-</article>
-<article class="content" id="insta">
-  <h1>Witnessing Acroyoga Magic on Instagram?</h1>
-  <h2>It's Closer Than You Think!</h2>
-  <p>Been mesmerized by those incredible acroyoga poses on Instagram? You're not alone!The truth is, acroyoga is much more accessible than those awe-inspiring videos might have you believe. We bridge the gap between "Insta-wow" and "Wow, I can do that!" Our beginner classes are specifically designed to make acroyoga safe, achievable, and most importantly, FUN.No prior experience needed, just a playful spirit and a desire to learn!</p>
-  <!--  <p>You're not alone! Seeing incredible acroyoga on Instagram can be both inspiring and intimidating. We help bridge that gap! Our beginner classes are designed to make acroyoga safe, achievable, and most importantly, FUN. No experience needed, just a playful spirit! (Minimum fitness level: Hold the top of a push-up.)</p>-->
-  <h2>Here is whom we are following</h2>
-  <ul>
-    <li><a href="https://www.instagram.com/bestofacroyoga/">@bestofacroyoga:</a> Reshares of pretty acro videos</a></li>
-    <li><a href="https://www.instagram.com/p/C38Nx6UpNXw/">@acrojames:</a> Incredible standing acro instructor</li>
-    <li><a href="https://www.instagram.com/p/C30WqQjJlgQ/">B R E A T H E performance:</a> Contemporary partnering has a fascinating overlap with acroyoga.</li>
-    <li><a href="https://www.instagram.com/p/C3p4dIIqj2H/">@misaris_acro:</a> A beautiful flow with elements that are very much in the reach of beginners: throne, foot-to-hand, etc.</li>
-    <li><a href="https://www.instagram.com/p/CkPKCIXj6LR/">Partner roll:</a> Sometimes, we do silly things.</li>
-    <li><a href="https://www.instagram.com/reel/C40enm5sCKX/?utm_source=ig_web_copy_link">@kileydolaway and @african_clash:</a> Absolutely gorgeous!</li>
-  </ul>
-  <div class="photo-container">
-    <img src="images/big-smiles.jpg" style="max-height: 27vh;"/>
-  </div>
-</article>
-<article class="content" id="safety">
-  <h1>Safety First: Your Acroyoga Journey Starts Here</h1>
-  <p>We understand your concerns.  Acroyoga involves trust and learning new skills. Here's what sets your mind at ease:</p>
-  <ul>
-    <li><b>Honest Risk Assessment:</b> Acroyoga has inherent risks, similar to most physical activities. We prioritize safety with proper progressions and techniques.</li>
-    <li><b>Spotters Are Your Superheroes:</b> Spotters are always present, guiding you safely in case of imbalance.</li>
-    <li><b>Learn to Fall Gracefully:</b> We teach "bailing" techniques – safely falling out of poses – preparing you for unexpected situations.</li>
-    <li><b>Building Confidence Step-by-Step:</b> No crazy stunts! You'll progress gradually through safe and fun poses with supportive instruction.</li>
-  </ul>
-  <p>Accidents do happen in the community. The risk increases dramatically when doing advanced skills without training on your own and without a spotter.</p>
-  <div class="photo-container">
-	  <img src="images/lightroom-3.jpg" style="max-height: 32vh;" alt="A very glorious acroyoga couch pose."/>
-  </div>
-</article>
-<article class="content" id="first-class">
-  <h1>What To Expect In Your First Class</h1>
-  <!--
+  <article class="content" id="home">
+    <h1>Sweat & Smiles: <nobr>Acroyoga Sundays!</nobr>
+    </h1>
+    <p>Join Our Acroyoga Learning Lab!
+    <ul>
+      <li>Every Sunday 5 to 6:30 PM (rare exceptions)</li>
+      <li>Ripley-Grier (Midtown NYC)</li>
+      <li>No partner or prior experience required!</li>
+    </ul>
+    <div class="events-container"></div>
+    <p>Acroyoga is a playful practice where you work with partners to climb on top of each other. You'll learn safe
+      techniques to base, fly, and spot together – no crazy strength required!</p>
+    <p><b>Turning Everyday People Into Happy Monkeys – That's Our Devious Plan.</b></p>
+    <p><a href="https://forms.gle/iewphwuWG29RRiZT8">Stay Updated - Get notified about our free introductory
+        classes!</a> </p>
+    <div class="youtube-container">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EYtx3jJdamw?si=NBlzzhq-N3rGEDs-"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </article>
+  <article class="content" id="benefits">
+    <h1>Benefits</h1>
+    <h2>More Than Fitness</h2>
+    <p>Acroyoga combines strength, flexibility, and teamwork for a full-body workout that transforms your body and
+      mind.<br />
+      <br />
+    </p>
+    <h2>Challenge & Connection</h2>
+    <p>Acroyoga builds trust and confidence as you push your limits with supportive partners.<br />
+      <br />
+    </p>
+    <h2>Learn & Grow</h2>
+    <p>Our innovative learning lab empowers you to progress at your own pace with personalized instruction.<br />
+      <br />
+    </p>
+    <div class="youtube-container">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q_zbJiGuIqA?si=sFXWBZp69cj0VDNT"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </article>
+  <article class="content" id="acroyoga">
+    <h1>What is Acroyoga?</h1>
+    <p>Acroyoga might surprise you! While it shares the word "yoga" in its name, it's a different beast entirely. Forget
+      holding static stretches – acroyoga is all about <b>dynamic movement, playful exploration, and building trust with
+        a partner.</b></p>
+    <p><b>Imagine a thrilling fusion of acrobatics and partner work:</b> You'll work together to create exciting poses
+      where one person (the flyer) is lifted and supported by the other (the base). It can be as basic as a playful
+      "bird pose" (aka "airplane" with little kids) or progress to more challenging inversions and transitions.</p>
+    </p>
+    <h2>Unveiling the Acroyoga Universe:</h2>
+    <ul>
+      <li><b>L-Base Vs. Standing:</b> In L-Base, the base lies on their back with the hands and arms free to move the
+        flyer through the air. In Standing, the base stands, allowing the flyer to fly higher and also around the body
+        of the base. (Standing includes dance lifts.)</li>
+      <li><b>Solar vs. Lunar:</b> Solar, like the sun, is an acroyoga practice that’s very energetic and circus like.
+        Lunar, like the moon, is a practice that’s calming, relaxing, and healing.(Lunar includes Thai yoga.)</li>
+    </ul>
+    <div class="photo-container">
+      <img src="images/lightroom-4.jpg" style="max-height: 30vh;" alt="Foot-to-shin pose with big smiles" />
+    </div>
+  </article>
+  <article class="content" id="insta">
+    <h1>Witnessing Acroyoga Magic on Instagram?</h1>
+    <h2>It's Closer Than You Think!</h2>
+    <p>Been mesmerized by those incredible acroyoga poses on Instagram? You're not alone!The truth is, acroyoga is much
+      more accessible than those awe-inspiring videos might have you believe. We bridge the gap between "Insta-wow" and
+      "Wow, I can do that!" Our beginner classes are specifically designed to make acroyoga safe, achievable, and most
+      importantly, FUN.No prior experience needed, just a playful spirit and a desire to learn!</p>
+    <!--  <p>You're not alone! Seeing incredible acroyoga on Instagram can be both inspiring and intimidating. We help bridge that gap! Our beginner classes are designed to make acroyoga safe, achievable, and most importantly, FUN. No experience needed, just a playful spirit! (Minimum fitness level: Hold the top of a push-up.)</p>-->
+    <h2>Here is whom we are following</h2>
+    <ul>
+      <li><a href="https://www.instagram.com/bestofacroyoga/">@bestofacroyoga:</a> Reshares of pretty acro videos</a>
+      </li>
+      <li><a href="https://www.instagram.com/p/C38Nx6UpNXw/">@acrojames:</a> Incredible standing acro instructor</li>
+      <li><a href="https://www.instagram.com/p/C30WqQjJlgQ/">B R E A T H E performance:</a> Contemporary partnering has
+        a fascinating overlap with acroyoga.</li>
+      <li><a href="https://www.instagram.com/p/C3p4dIIqj2H/">@misaris_acro:</a> A beautiful flow with elements that are
+        very much in the reach of beginners: throne, foot-to-hand, etc.</li>
+      <li><a href="https://www.instagram.com/p/CkPKCIXj6LR/">Partner roll:</a> Sometimes, we do silly things.</li>
+      <li><a href="https://www.instagram.com/reel/C40enm5sCKX/?utm_source=ig_web_copy_link">@kileydolaway and
+          @african_clash:</a> Absolutely gorgeous!</li>
+    </ul>
+    <div class="photo-container">
+      <img src="images/big-smiles.jpg" style="max-height: 27vh;" />
+    </div>
+  </article>
+  <article class="content" id="safety">
+    <h1>Safety First: Your Acroyoga Journey Starts Here</h1>
+    <p>We understand your concerns. Acroyoga involves trust and learning new skills. Here's what sets your mind at ease:
+    </p>
+    <ul>
+      <li><b>Honest Risk Assessment:</b> Acroyoga has inherent risks, similar to most physical activities. We prioritize
+        safety with proper progressions and techniques.</li>
+      <li><b>Spotters Are Your Superheroes:</b> Spotters are always present, guiding you safely in case of imbalance.
+      </li>
+      <li><b>Learn to Fall Gracefully:</b> We teach "bailing" techniques – safely falling out of poses – preparing you
+        for unexpected situations.</li>
+      <li><b>Building Confidence Step-by-Step:</b> No crazy stunts! You'll progress gradually through safe and fun poses
+        with supportive instruction.</li>
+    </ul>
+    <p>Accidents do happen in the community. The risk increases dramatically when doing advanced skills without training
+      on your own and without a spotter.</p>
+    <div class="photo-container">
+      <img src="images/lightroom-3.jpg" style="max-height: 32vh;" alt="A very glorious acroyoga couch pose." />
+    </div>
+  </article>
+  <article class="content" id="first-class">
+    <h1>What To Expect In Your First Class</h1>
+    <!--
   <p><b>Feeling nervous?</b> Don't worry! Acroyoga is more about technique than strength.<br/>
     <strong>Can you hold a push-up?</strong> You're probably good to go!</p>
   <p><strong>Arrive early!</strong> This lets us get to know you and answer any questions you have.</p>
@@ -174,141 +210,226 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
   <p><strong>Advanced movers welcome!</strong> We've had students with strong movement backgrounds progress quickly.</p>
   <p><strong>Ready to take flight? Sign up today!</strong></p>
 -->
-  <p><strong>Preparing for your first acroyoga</strong> class may feel daunting, especially if you're unsure about your fitness level. Rest assured, acroyoga isn't just for the super strong or flexible. In fact, technique plays a bigger role than brute strength in achieving those awe-inspiring poses you've seen online. As a general rule, if you can hold a push-up position, you're good to go.</p>
-  <p><strong>Arriving a little early</strong> gives us a chance to chat and understand your acro and movement background better. This allows me to tailor the class to the students present.</p>
-  <p>We kick off each class with an <strong>opening circle where everyone introduces themselves</strong>, shares their acro experience, and answers a fun question. It's a great way to break the ice and get to know your fellow practitioners.</p>
-  <p><strong>Warm-ups vary</strong> between acro-specific exercises and movement explorations.</p>
-  <p>Following warm-ups, we <strong>review the three fundamental safety rules</strong> before diving into the practice.</p>
-  <p>Your first acroyoga experience can <strong>range from gentle exploration to surprising feats.</strong> Whether you're taking your first steps into trust-building exercises or breezing through levels, there's a place for everyone in our class.</p>
-  <div class="youtube-container" style="">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/diM6t5QoRns?si=_403Q0ZbuwDxhmZe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="height: 20vh;"></iframe>
-  </div>
-</article>
-<article class="content" id="sign-up">
-  <h1>Sign Up Today!</h1>
-  <p>Joining our sessions is easy:</p>
-  <ol>
-    <li><strong>Register:</strong> Simply click the Eventbrite link to secure your spot.</li>
-    <li><strong>Stay Informed:</strong> Look out for an email on the day of the session for the exact studio location. Usually, we gather at Ripley-Grier, 520 8th Ave, NYC, NY 10018, but occasionally it's at a nearby Ripley-Grier location.</li>
-    <li><strong>Dress Appropriately:</strong> Wear snug fitting clothes. No loops, loose fabric, or other things that can get caught. Yoga pants and a snug t-shirt/top are perfect. For guys, avoid shorts with slippery fabrics!</li>
-    <li><strong>Arrive Early:</strong> Plan to come 15 minutes before class. This will give you enough time to get through security, which can have long lines, and to locate the correct studio.</li>
-    <li><strong>No Partner, No Problem:</strong> You don't need a partner to join, and beginners are highly encouraged to participate.</li>
-    <li><strong>Final Sales:</strong> Please note all ticket sales are final. We try our best to accommodate refunds or reschedules if they are requested at least a day before. Sign-ups a day before are appreciated - it helps us book the right-sized studio. Last-minute registrations can lead to a crowded space, though we always strive for a comfortable experience for everyone.</li>
-  </ol>
-  <p>We're excited to support you on your acroyoga journey!</p>
-  <div class="youtube-container" style="">
-	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xbRUC-aK0cE?si=_QnQtofjVVm5KunB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</article>
-<article class="content" id="curriculum">
-  <h1>Curriculum Overview</h1>
-  <p>Discover our comprehensive 15-level curriculum on our companion app, complete with free online lessons! Create your free account today: <a href="https://learninglab.fans">https://learninglab.fans</a></p>
-  <p>Here's a glimpse of the major milestones you'll encounter along the way:</p>
-  <ol>
-    <li><strong>Learning First Poses:</strong> Begin with beginner-friendly poses, such as Bird (aka "airplane"), to get your toes wet.</li>
-    <li><strong>Side Star:</strong> Transition into more challenging territory with Side Star, a pose resembling the yoga half-moon performed atop another person. Expect to dedicate multiple sessions to master this fundamental pose, which serves as a gateway to a myriad of other poses and transitions.</li>
-    <li><strong>Star:</strong> Delve into inversions with the Star pose. Developing the ability to base or fly in the Star position is pivotal for mastering inversions and refining your skills in acroyoga.</li>
-    <li><strong>Ninja Star:</strong> Often the first serious washing machine practitioners encounter. A washing machine is a sequence of poses where the start and end are the same, creating a continuous flow akin to being in a washing machine.</li>
-    <li><strong>Four-Step:</strong> Challenge yourself with the Four-Step washing machine, marking your graduation from being a beginner.</li>
-  </ol>
-  <p>After these, student's journey split into unique directions, shaped by your aspirations and interests. A common next big goal is to master standing hand-to-hand poses.</p>
-  <div class="photo-container">
-	  <img src="images/lightroom-6.jpg" style="max-height: 19vh;"/>
-  </div>
-</article>
-<article class="content" id="technique">
-  <h1>Intro To Acroyoga Technique</h1>
-  <p>In acroyoga, it's not just about muscle power—it's about mastering technique. Here's a sneak peek into the key concepts you'll explore in class:</p>
-  <ol>
-    <li><strong>Bone-Stacking:</strong> Imagine aligning your body like building blocks—each bone and joint perfectly stacked atop the other. Think of it as finding your balance point where your skeletal structure does most of the work. Try this: Stand as if waiting for the subway, then transition into a chair pose (hovering above an imaginary seat). Hold each for five minutes and feel the difference in muscle engagement.</li>
-    <li><strong>"The flyer holds the shape. The base balances":</strong> In any acroyoga pose, the flyer maintains the shape while the base focuses on balance. By locking in their body position, the flyer avoids creating an echo chamber of twitches and adjustments between the base and the flyer.</li>
-    <li><strong>Postural sway:</strong> If you try to stand a stick on an end, you’ll notice that it keeps falling. Any tall and narrow object quickly falls. Why do humans not fall over? We actually continuously fall one way and another. We balance by continually falling. Try to hold your shoulder still standing next to a door frame. You can’t. When bases tend to fall over like a stick, it’s because they try to freeze the position and suppress their postural sway. We help you to unblock the impulse to suppress your postural sway.</li>
-  </ol>
-  <div class="photo-container">
-    <img src="images/lightroom-1.jpg" style="max-height: 23vh;"/>
-  </div>
-</article>
-<article class="content" id="solo-train">
-  <h1>How to Solo Train For Acroyoga</h1>
-  <p>Not required, but some students are looking for ways to improve their acro-readdiness on their own in between sessions. Here are some ideas:</p>
-  <ol>
-    <li><strong>Plank Variations:</strong> Develops body tension for flyers. For bases, pretend the world is flipped over and you are basing the planet itself. Slowly transition the flyer (= planet) from one hand to the other to avoid disturing the delicate balance of your imanginary flyer.</li>
-    <li><strong>Hamstring Stretches:</strong> Many beginning bases struggle with tight hamstrings. Tip: Focus on scanning for butt muscles that you may be holding and stretch under load instead of simply dangle.</li>
-    <li><strong>Slow and smooth transitions:</strong> The heart of acroyoga is transitioning from one bonestack to the next. You can practice transitions with your own bodyweight by moving between downard dog, crab, monkey, and other positions. Focus on slow and smooth!
-    <li><strong>Slow and smooth locomotion:</strong> Locomotion is taking transitions to the next level by moving over distance: Bear walks, frog hops, crab crawls, and so on are really great. If you make a sound, you are not smooth!</li>
-  </ol>
-  <p>Note: I have adapted GMB training to class warm-ups. When we do them, students perform noticably better in class.</p>
-  <div class="photo-container">
-	  <img src="images/lightroom-2.jpg" style="max-height: 18vh;"/>
-	</div>
-</article>
-<article class="content" id="learning-lab-format">
-  <h1>The Learning Lab Teaching Format</h1>
-  <p><strong>Currently in the group class format:</strong> We are paving the way to develop a community of acro monkeys at different levels. Once we’ve built that, we’ll convert to the learning lab format like we’ve done for Argentine Tango.</p>
-  <p><strong>A structured approach:</strong> Unlike typical peer-to-peer learning experiences where peers are often unsure on what to do, the learning lab format is structured to be productive. The asymmetric pairing of a more beginning with a more advanced student means that the mentor takes charge and knows where to go. A curriculum designed for bite-sized, progressive mini-lessons provides a clear path forward.</p>
-  <p><strong>Teaching as Learning:</strong> Why teach without compensation? It's simple - teaching is an integral part of your learning journey. Articulating concepts, answering questions, and addressing learners' challenges enriches your understanding and enhances self-esteem as you contribute to others' growth.</p>
-  <p><strong>Addressing Accuracy Concerns:</strong> Worried about learning incorrect techniques? Our mini-lessons have clearly defined, tangible goals. Achieving these goals is a mutual indicator of successful learning. Moreover, both students and mentors have access to uniform teaching notes and resources through our companion app, ensuring consistency and accuracy in teaching.</p>
-  <p><strong>Supported by a Dedicated App:</strong> To enhance the Learning Lab experience, our app houses the curriculum, lesson videos, and tracks your progress. It's a handy tool for communication and determining your next learning steps. Explore it here: <a href="https://learninglab.fans">learninglab.fans</a></p>
-</article>
-<article class="content" id="thomas">
-  <h1>About Thomas</h1>
-  <p>One of the first things that you notice about me is that my neck doesn’t move much. I fractured my cervical spine, and it is completely fused now. I also have knee damage, ankle damage, and a shoulder surgery. I don’t look like the most elegant and highly skilled acrobat. Dealing with my injuries and limitations taught me a lot about how to adapt the practice to my body. And that experience helps me adapt the acroyoga practice to the various needs, challenges, and limitations of my students.</p>
-  <p>I fell in love with acroyoga at first sight. It took me a while to find the first class and then a regular class to go to. Chris Filkin’s epic three-hour Friday class with intensive technique and technical progressions informed a lot of my approach. Living within walking distance of the legendary Santa Monica jam on the beach certainly helped as well. Further, anatomy classes, Thai yoga certifications, and professional bodywork training helped develop my understanding of how bodies move.</p>
-  <p>My main passion lies in developing the learning lab format (learning from one student and teaching the next with a structured curriculum). I co-developed it with Mitra Martin for Argentine Tango in Los Angeles. The original learning lab is still running and has expanded. My desire is to bring it to acroyoga and other learning disciplines as well as further develop it and build a mobile platform to support it.</p>
-  <p>Alysa Malgapo has been in strumental in starting the acroyoga learning lab. She still comes to teach occasionally, but her dental hygiene schedule and wait-listed yoga classes keep her busy. She is very personable and makes sure that Thomas doesn’t get too serious ;)</p>
+    <p><strong>Preparing for your first acroyoga</strong> class may feel daunting, especially if you're unsure about
+      your fitness level. Rest assured, acroyoga isn't just for the super strong or flexible. In fact, technique plays a
+      bigger role than brute strength in achieving those awe-inspiring poses you've seen online. As a general rule, if
+      you can hold a push-up position, you're good to go.</p>
+    <p><strong>Arriving a little early</strong> gives us a chance to chat and understand your acro and movement
+      background better. This allows me to tailor the class to the students present.</p>
+    <p>We kick off each class with an <strong>opening circle where everyone introduces themselves</strong>, shares their
+      acro experience, and answers a fun question. It's a great way to break the ice and get to know your fellow
+      practitioners.</p>
+    <p><strong>Warm-ups vary</strong> between acro-specific exercises and movement explorations.</p>
+    <p>Following warm-ups, we <strong>review the three fundamental safety rules</strong> before diving into the
+      practice.</p>
+    <p>Your first acroyoga experience can <strong>range from gentle exploration to surprising feats.</strong> Whether
+      you're taking your first steps into trust-building exercises or breezing through levels, there's a place for
+      everyone in our class.</p>
+    <div class="youtube-container" style="">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/diM6t5QoRns?si=_403Q0ZbuwDxhmZe"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="height: 20vh;"></iframe>
+    </div>
+  </article>
+  <article class="content" id="sign-up">
+    <h1>Sign Up Today!</h1>
+    <p>Joining our sessions is easy:</p>
+    <ol>
+      <li><strong>Register:</strong> Simply click the Eventbrite link to secure your spot.</li>
+      <li><strong>Stay Informed:</strong> Look out for an email on the day of the session for the exact studio location.
+        Usually, we gather at Ripley-Grier, 520 8th Ave, NYC, NY 10018, but occasionally it's at a nearby Ripley-Grier
+        location.</li>
+      <li><strong>Dress Appropriately:</strong> Wear snug fitting clothes. No loops, loose fabric, or other things that
+        can get caught. Yoga pants and a snug t-shirt/top are perfect. For guys, avoid shorts with slippery fabrics!
+      </li>
+      <li><strong>Arrive Early:</strong> Plan to come 15 minutes before class. This will give you enough time to get
+        through security, which can have long lines, and to locate the correct studio.</li>
+      <li><strong>No Partner, No Problem:</strong> You don't need a partner to join, and beginners are highly encouraged
+        to participate.</li>
+      <li><strong>Final Sales:</strong> Please note all ticket sales are final. We try our best to accommodate refunds
+        or reschedules if they are requested at least a day before. Sign-ups a day before are appreciated - it helps us
+        book the right-sized studio. Last-minute registrations can lead to a crowded space, though we always strive for
+        a comfortable experience for everyone.</li>
+    </ol>
+    <p>We're excited to support you on your acroyoga journey!</p>
+    <div class="youtube-container" style="">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xbRUC-aK0cE?si=_QnQtofjVVm5KunB"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </article>
+  <article class="content" id="curriculum">
+    <h1>Curriculum Overview</h1>
+    <p>Discover our comprehensive 15-level curriculum on our companion app, complete with free online lessons! Create
+      your free account today: <a href="https://learninglab.fans">https://learninglab.fans</a></p>
+    <p>Here's a glimpse of the major milestones you'll encounter along the way:</p>
+    <ol>
+      <li><strong>Learning First Poses:</strong> Begin with beginner-friendly poses, such as Bird (aka "airplane"), to
+        get your toes wet.</li>
+      <li><strong>Side Star:</strong> Transition into more challenging territory with Side Star, a pose resembling the
+        yoga half-moon performed atop another person. Expect to dedicate multiple sessions to master this fundamental
+        pose, which serves as a gateway to a myriad of other poses and transitions.</li>
+      <li><strong>Star:</strong> Delve into inversions with the Star pose. Developing the ability to base or fly in the
+        Star position is pivotal for mastering inversions and refining your skills in acroyoga.</li>
+      <li><strong>Ninja Star:</strong> Often the first serious washing machine practitioners encounter. A washing
+        machine is a sequence of poses where the start and end are the same, creating a continuous flow akin to being in
+        a washing machine.</li>
+      <li><strong>Four-Step:</strong> Challenge yourself with the Four-Step washing machine, marking your graduation
+        from being a beginner.</li>
+    </ol>
+    <p>After these, student's journey split into unique directions, shaped by your aspirations and interests. A common
+      next big goal is to master standing hand-to-hand poses.</p>
+    <div class="photo-container">
+      <img src="images/lightroom-6.jpg" style="max-height: 19vh;" />
+    </div>
+  </article>
+  <article class="content" id="technique">
+    <h1>Intro To Acroyoga Technique</h1>
+    <p>In acroyoga, it's not just about muscle power—it's about mastering technique. Here's a sneak peek into the key
+      concepts you'll explore in class:</p>
+    <ol>
+      <li><strong>Bone-Stacking:</strong> Imagine aligning your body like building blocks—each bone and joint perfectly
+        stacked atop the other. Think of it as finding your balance point where your skeletal structure does most of the
+        work. Try this: Stand as if waiting for the subway, then transition into a chair pose (hovering above an
+        imaginary seat). Hold each for five minutes and feel the difference in muscle engagement.</li>
+      <li><strong>"The flyer holds the shape. The base balances":</strong> In any acroyoga pose, the flyer maintains the
+        shape while the base focuses on balance. By locking in their body position, the flyer avoids creating an echo
+        chamber of twitches and adjustments between the base and the flyer.</li>
+      <li><strong>Postural sway:</strong> If you try to stand a stick on an end, you’ll notice that it keeps falling.
+        Any tall and narrow object quickly falls. Why do humans not fall over? We actually continuously fall one way and
+        another. We balance by continually falling. Try to hold your shoulder still standing next to a door frame. You
+        can’t. When bases tend to fall over like a stick, it’s because they try to freeze the position and suppress
+        their postural sway. We help you to unblock the impulse to suppress your postural sway.</li>
+    </ol>
+    <div class="photo-container">
+      <img src="images/lightroom-1.jpg" style="max-height: 23vh;" />
+    </div>
+  </article>
+  <article class="content" id="solo-train">
+    <h1>How to Solo Train For Acroyoga</h1>
+    <p>Not required, but some students are looking for ways to improve their acro-readdiness on their own in between
+      sessions. Here are some ideas:</p>
+    <ol>
+      <li><strong>Plank Variations:</strong> Develops body tension for flyers. For bases, pretend the world is flipped
+        over and you are basing the planet itself. Slowly transition the flyer (= planet) from one hand to the other to
+        avoid disturing the delicate balance of your imanginary flyer.</li>
+      <li><strong>Hamstring Stretches:</strong> Many beginning bases struggle with tight hamstrings. Tip: Focus on
+        scanning for butt muscles that you may be holding and stretch under load instead of simply dangle.</li>
+      <li><strong>Slow and smooth transitions:</strong> The heart of acroyoga is transitioning from one bonestack to the
+        next. You can practice transitions with your own bodyweight by moving between downard dog, crab, monkey, and
+        other positions. Focus on slow and smooth!
+      <li><strong>Slow and smooth locomotion:</strong> Locomotion is taking transitions to the next level by moving over
+        distance: Bear walks, frog hops, crab crawls, and so on are really great. If you make a sound, you are not
+        smooth!</li>
+    </ol>
+    <p>Note: I have adapted GMB training to class warm-ups. When we do them, students perform noticably better in class.
+    </p>
+    <div class="youtube-container" style="">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CJ-oiyvNp9s?si=022sHJIF098xz81F"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </article>
+  <article class="content" id="learning-lab-format">
+    <h1>The Learning Lab Teaching Format</h1>
+    <p><strong>Currently in the group class format:</strong> We are paving the way to develop a community of acro
+      monkeys at different levels. Once we’ve built that, we’ll convert to the learning lab format like we’ve done for
+      Argentine Tango.</p>
+    <p><strong>A structured approach:</strong> Unlike typical peer-to-peer learning experiences where peers are often
+      unsure on what to do, the learning lab format is structured to be productive. The asymmetric pairing of a more
+      beginning with a more advanced student means that the mentor takes charge and knows where to go. A curriculum
+      designed for bite-sized, progressive mini-lessons provides a clear path forward.</p>
+    <p><strong>Teaching as Learning:</strong> Why teach without compensation? It's simple - teaching is an integral part
+      of your learning journey. Articulating concepts, answering questions, and addressing learners' challenges enriches
+      your understanding and enhances self-esteem as you contribute to others' growth.</p>
+    <p><strong>Addressing Accuracy Concerns:</strong> Worried about learning incorrect techniques? Our mini-lessons have
+      clearly defined, tangible goals. Achieving these goals is a mutual indicator of successful learning. Moreover,
+      both students and mentors have access to uniform teaching notes and resources through our companion app, ensuring
+      consistency and accuracy in teaching.</p>
+    <p><strong>Supported by a Dedicated App:</strong> To enhance the Learning Lab experience, our app houses the
+      curriculum, lesson videos, and tracks your progress. It's a handy tool for communication and determining your next
+      learning steps. Explore it here: <a href="https://learninglab.fans">learninglab.fans</a></p>
+  </article>
+  <article class="content" id="thomas">
+    <h1>About Thomas</h1>
+    <p>One of the first things that you notice about me is that my neck doesn’t move much. I fractured my cervical
+      spine, and it is completely fused now. I also have knee damage, ankle damage, and a shoulder surgery. I don’t look
+      like the most elegant and highly skilled acrobat. Dealing with my injuries and limitations taught me a lot about
+      how to adapt the practice to my body. And that experience helps me adapt the acroyoga practice to the various
+      needs, challenges, and limitations of my students.</p>
+    <p>I fell in love with acroyoga at first sight. It took me a while to find the first class and then a regular class
+      to go to. Chris Filkin’s epic three-hour Friday class with intensive technique and technical progressions informed
+      a lot of my approach. Living within walking distance of the legendary Santa Monica jam on the beach certainly
+      helped as well. Further, anatomy classes, Thai yoga certifications, and professional bodywork training helped
+      develop my understanding of how bodies move.</p>
+    <p>My main passion lies in developing the learning lab format (learning from one student and teaching the next with
+      a structured curriculum). I co-developed it with Mitra Martin for Argentine Tango in Los Angeles. The original
+      learning lab is still running and has expanded. My desire is to bring it to acroyoga and other learning
+      disciplines as well as further develop it and build a mobile platform to support it.</p>
+    <p>Alysa Malgapo has been in strumental in starting the acroyoga learning lab. She still comes to teach
+      occasionally, but her dental hygiene schedule and wait-listed yoga classes keep her busy. She is very personable
+      and makes sure that Thomas doesn’t get too serious ;)</p>
 
-	<div class="about-photo-container">
-		<img src="images/thomas-about.png"/>
-		<img src="images/alyssa-in-park.png"/>
-	</div>
-</article>
-<article class="site-info">
-  <p><a href="terms.html">Terms of Use</a> - <a href="privacy-policy.html">Privacy Policy</a></p>
-  <p>Contact: <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
-  <p>(C) 2024 Thomas Fischer</p>
-</article>
-<div class="header-bar">
-  <div class="header-nav">
-    <div class="navigation">
-      <div class="navigation-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </div>
-      <nav class="navigation-menu">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#benefits">Benefits</a></li>
-          <li><a href="#acroyoga">What Is Acroyoga?</a></li>
-          <li><a href="#insta">Got Acro Curious From Insta?</a></li>
-          <li><a href="#safety">Acroyoga And Safety</a></li>
-          <li><a href="#first-class">What Is The First Class Like?</a></li>
-          <li><a href="#sign-up">Sign Up Today!</a></li>
-          <li><a href="#curriculum">Curriculum</a></li>
-          <li><a href="#technique">Intro To Acroyoga Technique</a></li>
-          <li><a href="#solo-train">Solo Training For Acroyoga</a></li>
-          <li><a href="#learning-lab-format">Learning Lab Format</a></li>
-          <li><a href="#thomas">About Thomas</a></li>
-        </ul>
-      </nav>
+    <div class="about-photo-container">
+      <img src="images/thomas-about.png" />
+      <img src="images/alyssa-in-park.png" />
+    </div>
+  </article>
+  <article class="site-info">
+    <p><a href="terms.html">Terms of Use</a> - <a href="privacy-policy.html">Privacy Policy</a></p>
+    <p>Contact: <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
+    <p>(C) 2024 Thomas Fischer</p>
+  </article>
+  <div class="header-bar">
+    <div class="header-nav">
+      <div class="navigation">
+        <div class="navigation-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
+        </div>
+        <nav class="navigation-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#acroyoga">What Is Acroyoga?</a></li>
+            <li><a href="#insta">Got Acro Curious From Insta?</a></li>
+            <li><a href="#safety">Acroyoga And Safety</a></li>
+            <li><a href="#first-class">What Is The First Class Like?</a></li>
+            <li><a href="#sign-up">Sign Up Today!</a></li>
+            <li><a href="#curriculum">Curriculum</a></li>
+            <li><a href="#technique">Intro To Acroyoga Technique</a></li>
+            <li><a href="#solo-train">Solo Training For Acroyoga</a></li>
+            <li><a href="#learning-lab-format">Learning Lab Format</a></li>
+            <li><a href="#thomas">About Thomas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header-text">
+      <h2>Acroyoga Learning Lab</h2>
+    </div>
+    <div class="header-placeholder">.</div>
+  </div>
+  <div class="action-bar">
+    <div class="action-bar-placeholder">.</div>
+    <div class="action-bar-usp">
+      <h2>Never Too Grown Up For Play:<br />
+        Discover Acroyoga</h2>
+    </div>
+    <div class="action-bar-button">
+      <div><a href="https://www.instagram.com/acroyogalabnyc/"><img class="insta-icon"
+            src="images/Instagram_Glyph_Black.png" alt="instagram logo"
+            onmouseover="this.src='images/Instagram_Glyph_Gradient.png';"
+            onmouseout="this.src='images/Instagram_Glyph_Black.png';" /></a> </div>
+      <div>
+        <form method="get" action="https://www.eventbrite.com/cc/acroyoga-learning-labs-3010889">
+          <input class="pillboxButton" type="submit" value="Sign up!" />
+        </form>
+      </div>
     </div>
   </div>
-  <div class="header-text">
-    <h2>Acroyoga Learning Lab</h2>
-  </div>
-  <div class="header-placeholder">.</div>
-</div>
-<div class="action-bar">
-  <div class="action-bar-placeholder">.</div>
-  <div class="action-bar-usp">
-    <h2>Never Too Grown Up For Play:<br/>
-      Discover Acroyoga</h2>
-  </div>
-  <div class="action-bar-button">
-    <div><a href="https://www.instagram.com/acroyogalabnyc/"><img class="insta-icon" src="images/Instagram_Glyph_Black.png" alt="instagram logo" onmouseover="this.src='images/Instagram_Glyph_Gradient.png';" onmouseout="this.src='images/Instagram_Glyph_Black.png';"/></a> </div>
-    <div>
-      <form method="get" action="https://www.eventbrite.com/cc/acroyoga-learning-labs-3010889">
-        <input class="pillboxButton" type="submit" value="Sign up!"/>
-      </form>
-    </div>
-  </div>
-</div>
 </body>
 <script src="javascript/navigation.js"></script>
+
 </html>
