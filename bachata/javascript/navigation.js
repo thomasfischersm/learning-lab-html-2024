@@ -86,6 +86,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "4-Week Absolute Beginner Cycle 7:30 PM",
       "date": "2024-04-26"
+    },
+    {
+      "name": "Free Summer Kick-Off Open House 7:30 PM",
+      "date": "2024-05-24"
     }
   ];
   const container = document.querySelector('.events-container');
