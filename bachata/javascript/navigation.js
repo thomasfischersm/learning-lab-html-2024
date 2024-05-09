@@ -90,6 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Free Summer Kick-Off Open House 7:30 PM",
       "date": "2024-05-24"
+    },
+    {
+      "name": "Mostly on summer break June through August",
+      "date": "2024-09-1"
     }
   ];
   const container = document.querySelector('.events-container');

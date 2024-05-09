@@ -102,6 +102,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Memorial Day: Free 3-hour acroyoga session in Central Park",
       "date": "2024-05-27"
+    },
+    {
+      "name": "Mostly on summer break June through August",
+      "date": "2024-09-1"
     }
   ];
   const container = document.querySelector('.events-container');
