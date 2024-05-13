@@ -93,11 +93,11 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       "name": "Free Summer Kick-Off Open House 6:00 PM",
-      "date": "2024-05-18"
+      "date": "2024-05-24"
     },
     {
       "name": "Free Summer Kick-Off In Central Park: 3-hour session",
-      "date": "2024-05-24"
+      "date": "2024-05-18"
     },
     {
       "name": "Memorial Day: Free 3-hour acroyoga session in Central Park",
