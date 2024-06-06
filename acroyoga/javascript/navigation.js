@@ -104,8 +104,12 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2024-05-27"
     },
     {
-      "name": "Mostly on summer break June through August",
+      "name": "<span style='color: red'>Mostly on summer break June through August</span>",
       "date": "2024-09-1"
+    },
+    {
+      "name": "Workshop at Pagan's Paradise: Lunar Acroyoga Flow for Couples: Trust, Connection, and Healing. To join, sign up with <a href='https://www.eventbrite.com/e/lunar-acroyoga-flow-for-couples-trust-connection-and-healing-new-tickets-920644742207'>Pagan's Paradise</a>, not Learning Lab!",
+      "date": "2024-07-02 "
     }
   ];
   const container = document.querySelector('.events-container');
