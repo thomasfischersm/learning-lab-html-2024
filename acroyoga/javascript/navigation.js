@@ -109,8 +109,16 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       "name": "Workshop at Pagan's Paradise: Lunar Acroyoga Flow for Couples: Trust, Connection, and Healing. To join, sign up with <a href='https://www.eventbrite.com/e/lunar-acroyoga-flow-for-couples-trust-connection-and-healing-new-tickets-920644742207'>Pagan's Paradise</a>, not Learning Lab!",
-      "date": "2024-07-02 "
-    }
+      "date": "2024-07-02"
+    },
+    {
+      "name": "Workshop at Pagan's Paradise: Lunar Acroyoga Flow for Couples: Trust, Connection, and Healing. To join, sign up with <a href='https://www.eventbrite.com/e/lunar-acroyoga-flow-for-couples-clothing-optional-new-tickets-1006589475217'>Pagan's Paradise</a>, not Learning Lab!",
+      "date": "2024-09-26"
+    },
+    {
+      "name": "<span style='color: red'>On teaching break with occasional workshops.</span>",
+      "date": "2024-12-1"
+    }      
   ];
   const container = document.querySelector('.events-container');
   const today = new Date();

@@ -94,6 +94,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Mostly on summer break June through August",
       "date": "2024-09-1"
+    },
+    {
+      "name": "<span style='color: red'>On teaching break with occasional workshops.</span>",
+      "date": "2024-12-1"
     }
   ];
   const container = document.querySelector('.events-container');
