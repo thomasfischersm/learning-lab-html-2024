@@ -425,6 +425,11 @@ li {
 .pillboxButton:hover {
   background-color: #0056b3; /* Darker shade on hover */
 }
+.illustration {
+  width: 65%;
+  margin:auto;
+  display:block
+}
 @media (min-width: 768px) {
   body {
     margin-left: 8px;
