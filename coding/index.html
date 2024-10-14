@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coding Learning Lab</title>
+<!-- Fix before going live! -->
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3VFHN1M8MF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3VFHN1M8MF');
+</script>
+
+
+
+<!-- Start cookieyes banner --> 
+<!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/0d8a0989f6fa4f47a0690306/script.js"></script>  --> 
+<!-- End cookieyes banner --> 
+
+<!-- Termly --> 
+<!--<script
+  type="text/javascript"
+  src="https://app.termly.io/resource-blocker/bdae4e4f-4c9e-4e2c-85fe-d9cfaf591a1f?autoBlock=on"
+></script>--> 
+<!-- End Termly -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<script type="application/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+	syncAllElements();
+});
+
+window.onresize = function() {
+    syncAllElements();
+};
+
+function syncAllElements() {
+//	syncElementWidth('.header-nav', '.header-placeholder');
+//	syncElementWidth('.action-bar-button', '.action-bar-placeholder');
+	
+	// Sync header height to top padding.
+	var headerBarHeight = document.querySelector('.header-bar').offsetHeight;
+	var footerBarHeight = document.querySelector('.action-bar').offsetHeight;
+	var contentDivs = document.querySelectorAll('.content');
+	
+	contentDivs.forEach(contentDiv => {
+		contentDiv.style.paddingTop = headerBarHeight + 'px';
+		contentDiv.style.paddingBottom = footerBarHeight + 'px';
+	});
+	
+	var siteInfoDivs = document.querySelectorAll('.site-info');
+	
+	siteInfoDivs.forEach(siteInfoDiv => {
+		siteInfoDiv.style.paddingBottom = footerBarHeight + 'px';
+	});
+
+}	
+	
+function syncElementWidth(srcElementCss, targetElementCss) {
+    var child1 = document.querySelector(srcElementCss);
+    var placeholder = document.querySelector(targetElementCss);
+
+    placeholder.style.width = child1.offsetWidth + 'px';
+}
+</script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWHCGZHQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<article class="content" id="home">
+  <h1>The Coding Learning Lab</h1>
+  <p style="font-style: italic">Master Programming by Teaching Others</p>
+  <p style="font-weight: bold;">Learn Faster. Teach Smarter. Code Better.</p>
+  <h2 style="margin-block-end: 0">What is The Learning Lab?</h2>
+  <p style="margin-block-start: 0">An innovative way to learn computer science and programming. Our peer-based approach pairs students to teach each other, turning every learner into a teacher. From interview prep to mastering new languages, The Learning Lab accelerates your growth by teaching and learning with others.</p>
+  <div class="events-container"></div>
+  <h2 style="margin-block-end: 0">Why Choose The Learning Lab?</h2>
+    <ul style="margin-block-start: 0">
+    <li>Interactive Learning: Real-time feedback from peers means you never get stuck.</li>
+    <li>Mastery Through Teaching: Solidify your understanding by teaching others.</li>
+    <li>Skill & Confidence Boost: Improve both technical and communication skills—perfect for interviews.</li>
+    <li>Personalized Feedback: Learn at your pace with support from advanced students.</li>
+    <li>Real-World Skills: Hands-on coding practice, not just theory.</li>
+  </ul>
+  <h2 style="margin-block-end: 0">Join The Learning Revolution</h2>
+  <p style="margin-block-start: 0"><a href="https://forms.gle/R6nPpET5rJY6ffMy7">Transform how you learn. Sign up for early access to our classes and workshops!</a> </p>
+  <p>Located in Manhattan—hands-on coding classes with peer support and real-time feedback.</p>
+</article>
+<article class="content" id="benefits">
+  <h1>Benefits</h1>
+  <h2>Jumpstart Your Tech Career</h2>
+  <p>Break into the high-demand tech industry with practical, hands-on coding skills that employers are seeking. Whether you're new to coding or transitioning from another field, our courses equip you with the expertise to land your next role.</p>
+  <h2>Get Job-Ready Faster</h2>
+  <p>Skip the theory-heavy lectures and dive into real-world coding challenges. With peer support and feedback, you’ll gain the confidence and skills to tackle coding problems in interviews and on the job.</p>
+  <h2>Flexible Learning for Busy Schedules</h2>
+  <p>Our tailored approach fits into your busy NYC life, whether you're balancing work, job hunting, or other responsibilities. Learn at your own pace with guidance from peers and mentors who understand your journey.</p>
+  <h2>Stay Competitive in a Changing Job Market</h2>
+  <p>The tech landscape is evolving fast, and staying ahead means learning new skills. Our courses keep you up-to-date with the latest tools and languages, giving you an edge in a competitive job market.</p>
+  <h2>Build Your Network in NYC’s Tech Hub</h2>
+  <p>Connect with fellow learners and mentors in Manhattan, and tap into the city’s thriving tech scene. You’ll not only learn to code but also build valuable connections that can help you land opportunities in NYC’s tech-driven economy.</p>
+</article>
+<article class="content" id="difference">
+  <h1>The Learning Lab Difference</h1>
+  <h2>What Is The Learning Lab?</h2>
+  <p>At The Learning Lab, we believe the best way to learn is by teaching others. Our unique method pairs students at different levels, allowing advanced students to teach beginners. As students master each mini-lesson, they become teachers themselves, solidifying their knowledge by passing it on to the next learner. It’s an approach that accelerates learning, increases engagement, and builds real-world skills—especially in a challenging subject like computer science.</p>
+  <h2>Why The Learning Lab Approach Works for Programming</h2>
+  <p>Programming is more than memorizing syntax—it’s problem-solving, debugging, and critical thinking. These skills are best developed through practice and feedback. Traditional lecture-based classes can leave students feeling isolated and frustrated, especially when a small error stands in the way of success.</p>
+  <p>With our peer-based system, students can ask questions, receive real-time feedback, and correct mistakes before they become frustrating roadblocks. Our mentor-student pairing ensures personalized learning and continuous support. Whether you're just starting or preparing for a software engineering interview, The Learning Lab makes mastering coding more interactive, enjoyable, and effective.</p>
+  <h2>Develop Soft Skills Alongside Programming Expertise</h2>
+  <p>Programming expertise is crucial, but so are soft skills—especially when it comes to landing that job. Many tech professionals struggle with articulating their thought process during interviews. At The Learning Lab, our peer-to-peer teaching format encourages continuous conversation and explanation, sharpening both technical and communication skills. You’ll be prepared not just to code, but to explain your approach with confidence in technical interviews.</p>
+  </div>
+</article>
+<article class="content" id="classes">
+  <h2>Classes and Workshops Coming Soon</h2>
+  <p>We’re preparing a series of classes and workshops tailored to those looking to deepen their programming skills and ace technical interviews. Our first offerings will include:</p>
+  <ul>
+    <li><b>Software Engineering Interview Prep</b><br/>
+      Focus on data structures, algorithms, and system design—everything you need to nail that coding interview.</li>
+      <li><b>Dart Programming</b><br/>
+        Learn Dart from the ground up, perfect for developers looking to explore modern, scalable programming.</li>
+        <li><b>Flutter Programming</b><br/>
+          Build beautiful, natively compiled applications for mobile, web, and desktop from a single codebase using Flutter.</li>
+        <li><b>Java Programming</b><br/>
+          Master the fundamentals and advanced concepts of Java programming for Android development, web applications, and more.</li>
+        <li><b>Native Android Development</b><br/>
+          Dive deep into building fast, responsive, native Android applications with hands-on practice.</li>
+        <li><b>SQL and Data Analytics</b><br/>
+          Gain the skills needed to harness the power of data and create optimized SQL queries for real-world data analysis.</li>
+        <li><b>Python Programming</b><br/>
+          Learn one of the most versatile and widely-used languages for web development, data science, automation, and beyond.</li>
+    </ul>
+</article>
+<article class="content" id="about">
+  <h1>About</h1>
+  <p>I'm Thomas Fischer, a self-taught software engineer with over two decades of experience in the tech industry, including positions at Google and Meta. I've interviewed over a hundred engineers and reviewed countless interview packets, giving me unique insights into what hiring committees look for. I have found that you learn more by implementing something yourself than memorizing textbooks, e.g. I've built my own database. However, self-learning can involve many detours and struggles. I believe the best way to learn computer science is through hands-on implementation combined with guided support to avoid unnecessary frustrations. In my free time, I enjoy practicing acroyoga and dancing sensual bachata.</p>
+</article>
+<article class="site-info">
+  <p><a href="terms.html">Terms of Use</a> - <a href="privacy-policy.html">Privacy Policy</a></p>
+  <p>Contact: <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
+  <p>(C) 2024 Thomas Fischer</p>
+</article>
+<div class="header-bar">
+  <div class="header-nav">
+    <div class="navigation">
+      <div class="navigation-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </div>
+      <nav class="navigation-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#difference">The Learning Lab Difference</a></li>
+          <li><a href="#classes">Classes and Workshops</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="header-text">
+    <h2><img src="images/plain-learning-lab-logo.svg" class="logo"/><b style="letter-spacing: .1em;">NYC Coding</b> learning lab</h2>
+  </div>
+  <div class="header-placeholder">.</div>
+</div>
+<div class="action-bar">
+  <div class="action-bar-placeholder">.</div>
+  <div class="action-bar-usp">
+    <h2>Learn Faster.<br/>Teach Smarter.<br/>Code Better.</h2>
+  </div>
+  <div class="action-bar-button">
+    <div><!--<a href="https://www.instagram.com/sensualbachatalabnyc/"><img class="insta-icon" src="images/Instagram_Glyph_Black.png" alt="instagram logo" onmouseover="this.src='images/Instagram_Glyph_Gradient.png';" onmouseout="this.src='images/Instagram_Glyph_Black.png';"/></a>--> </div>
+    <div>
+      <form method="get" action="https://forms.gle/R6nPpET5rJY6ffMy7">
+        <input class="pillboxButton" type="submit" value="Sign up!"/>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+<script src="javascript/navigation.js"></script>
+</html>
