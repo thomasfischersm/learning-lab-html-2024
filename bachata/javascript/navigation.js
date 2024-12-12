@@ -98,6 +98,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "<span style='color: red'>On teaching break with occasional workshops.</span>",
       "date": "2024-12-1"
+    },
+    {
+      "name": "<span style='color: red'>Retired from teaching.</span>",
+      "date": "2034-12-1"
     }
   ];
   const container = document.querySelector('.events-container');

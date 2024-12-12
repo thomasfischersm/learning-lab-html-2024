@@ -118,7 +118,15 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "<span style='color: red'>On teaching break with occasional workshops.</span>",
       "date": "2024-12-1"
-    }      
+    },
+    {
+      "name": "Workshop at Pagan's Paradise: Lunar Acroyoga Flow for Couples: Trust, Connection, and Healing. To join, sign up with <a href='https://www.eventbrite.com/e/lunar-acroyoga-for-intimacy-trust-and-communication-couples-friends-tickets-1095693120619'>Pagan's Paradise</a>, not Learning Lab!",
+      "date": "2024-12-17"
+    },
+    {
+      "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
+      "date": "2030-12-1"
+    } 
   ];
   const container = document.querySelector('.events-container');
   const today = new Date();
