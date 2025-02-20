@@ -124,6 +124,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2024-12-17"
     },
     {
+      "name": "Open house acroyoga session on Saturday, 2/22/25 from 3 to 4:30 PM at Ripley Grier (Midtown NYC): <a href='https://www.eventbrite.com/e/acroyoga-open-house-learning-lab-nyc-tickets-1255099419149'>Sign up on Eventbrite</a>",
+      "date": "2025-02-22"
+    },
+    {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
       "date": "2030-12-1"
     } 
