@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coding Interview Prep Learning Lab</title>
+<!-- Fix before going live! -->
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+<!-- Google Tag Manager --> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWHCGZHQ');</script> 
+<!-- End Google Tag Manager --> 
+
+<!-- Remove these before going live. -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+
+<!-- Start cookieyes banner --> 
+<!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/0d8a0989f6fa4f47a0690306/script.js"></script>  --> 
+<!-- End cookieyes banner --> 
+
+<!-- Termly --> 
+<!--<script
+  type="text/javascript"
+  src="https://app.termly.io/resource-blocker/bdae4e4f-4c9e-4e2c-85fe-d9cfaf591a1f?autoBlock=on"
+></script>--> 
+<!-- End Termly -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<script type="application/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+	syncAllElements();
+});
+
+window.onresize = function() {
+    syncAllElements();
+};
+
+function syncAllElements() {
+//	syncElementWidth('.header-nav', '.header-placeholder');
+//	syncElementWidth('.action-bar-button', '.action-bar-placeholder');
+	
+	// Sync header height to top padding.
+	var headerBarHeight = document.querySelector('.header-bar').offsetHeight;
+	var footerBarHeight = document.querySelector('.action-bar').offsetHeight;
+	var contentDivs = document.querySelectorAll('.content');
+	
+	contentDivs.forEach(contentDiv => {
+		contentDiv.style.paddingTop = headerBarHeight + 'px';
+		contentDiv.style.paddingBottom = footerBarHeight + 'px';
+	});
+	
+	var siteInfoDivs = document.querySelectorAll('.site-info');
+	
+	siteInfoDivs.forEach(siteInfoDiv => {
+		siteInfoDiv.style.paddingBottom = footerBarHeight + 'px';
+	});
+
+}	
+	
+function syncElementWidth(srcElementCss, targetElementCss) {
+    var child1 = document.querySelector(srcElementCss);
+    var placeholder = document.querySelector(targetElementCss);
+
+    placeholder.style.width = child1.offsetWidth + 'px';
+}
+</script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWHCGZHQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<article class="content" id="home">
+    <h1>Don't Get Stuck – Learn DSA with Peers.</h1>
+    <p>Fast, effective, and interactive coding interview prep.</p>
+
+    <h2>How It Works</h2>
+    <ol>
+        <li><strong>Go to the web app:</strong> <a href="https://learninglab.fans">learninglab.fans</a></li>
+        <li><strong>Create a free account</strong></li>
+        <li><strong>Join the coding interview prep course</strong></li>
+        <li><strong>Click "Learn Now" or "Teach Now"</strong></li>
+        <li><strong>Instantly match with a peer and learn a lesson</strong></li>
+    </ol>
+    <br/>
+    <h2>A Tech Job Can Change Your Life—Don’t Prep Alone.</h2>
+    <p>Landing a tech job can be life-changing—great pay, exciting challenges, and endless opportunities. But getting there isn’t easy. Preparing alone means wrestling with tough DSA problems, second-guessing your approach, and struggling to stay consistent. It’s frustrating, lonely, and easy to procrastinate. That’s why we connect you with a peer in real-time, following a structured, progressive curriculum. Instead of getting stuck, you get instant help, stay accountable, and systematically build your skills—just like in a real interview. Teaching what you’ve learned reinforces your understanding, making your prep faster, smoother, and far more effective.</p>
+</article>
+<article class="content" id="why">
+  <h1>Why It Works</h1>
+  <ul>
+      <li>✅ <strong>Short, focused sessions</strong> – 15 minutes keeps learning effective and easy to commit to.</li>
+      <li>✅ <strong>No more procrastination</strong> – Peer matching keeps you accountable.</li>
+      <li>✅ <strong>Learn, then teach</strong> – Reinforce your understanding by explaining to the next learner.</li>
+      <li>✅ <strong>Structured curriculum</strong> – Step-by-step lessons ensure steady progress.</li>
+      <li>✅ <strong>Practice coding live</strong> – Gain confidence coding in front of others, just like in interviews.</li>
+  </ul>
+</article>
+<article class="content" id="faq">
+  <h1>FAQs</h1>
+  <div class="faq-item">
+    <h3>How much does it cost?</h3>
+    <p>The basic course is free to try.</p>
+  </div>
+
+  <div class="faq-item">
+      <h3>What if I don’t feel ready to teach?</h3>
+      <p>That’s normal! You only teach lessons you’ve already learned, and teaching helps solidify your knowledge.</p>
+  </div>
+
+  <div class="faq-item">
+      <h3>Can I pick my peer?</h3>
+      <p>Matches are instant, but the system ensures you get someone at the right level for your lesson.</p>
+  </div>
+
+  <div class="faq-item">
+      <h3>What do I need to get started?</h3>
+      <p>Just a computer, an internet connection, and a willingness to learn!</p>
+  </div>
+  <br/>
+  <p><strong>🔹 Start now → <a href="https://learninglab.fans">learninglab.fans</a></strong></p>
+</article>
+<article class="content" id="indepth">
+  <header>
+    <h2>Stop Grinding Alone—Prepare Smarter</h2>
+    <p>Get unstuck, stay motivated, and build real interview skills with instant peer matching.</p>
+</header>
+
+<section id="overview">
+    <h2>Why Learning Lab Works Better Than Solo Practice</h2>
+    <p>Most people prepare for coding interviews by grinding LeetCode problems alone. But studying in isolation has serious downsides:</p>
+    <ul>
+        <li>❌ **You waste time getting stuck** on problems without feedback.</li>
+        <li>❌ **It’s easy to lose motivation** and procrastinate.</li>
+        <li>❌ **You’re not practicing live problem-solving**, which is crucial for real interviews.</li>
+    </ul>
+    <p>Learning Lab **solves these problems** by instantly matching you with a peer. Instead of struggling alone, you get real-time help, 
+    keep yourself accountable, and gain confidence coding in front of someone—just like in an interview.</p>
+</section>
+
+<section id="how-it-works">
+    <h2>How It Works</h2>
+    <ul>
+        <li>✅ **Learn a lesson** – Work on a focused coding problem from a structured curriculum.</li>
+        <li>✅ **Get paired with a peer** – Someone who has already completed this lesson guides you through it.</li>
+        <li>✅ **Solve the problem together** – Get unstuck, ask questions, and apply what you’ve learned.</li>
+        <li>✅ **Teach the next person** – Once you complete the lesson, you mentor the next learner.</li>
+    </ul>
+    <p>Sessions are **15 minutes**, keeping progress fast and focused.</p>
+</section>
+</article>
+<article class="content" id="indepth">
+<section id="quality-control">
+    <h2>How We Ensure High-Quality Learning</h2>
+    <ul>
+        <li>🔹 **You only teach once you've mastered the lesson** – No misinformation.</li>
+        <li>🔹 **Lessons are self-verifying** – Coding exercises ensure success is measurable.</li>
+        <li>🔹 **Teaching reinforces learning** – Explaining concepts improves recall and confidence.</li>
+    </ul>
+</section>
+
+<section id="faq">
+    <h2>FAQs</h2>
+    <div class="faq-item">
+        <h3>Why not just grind LeetCode alone?</h3>
+        <p>Because you’ll **waste time getting stuck, lose motivation, and won’t practice coding in front of someone**—which is crucial for interviews.</p>
+    </div>
+    <div class="faq-item">
+        <h3>What if I don’t feel ready to teach?</h3>
+        <p>You only teach once you’ve completed the lesson yourself. Teaching **reinforces what you just learned**.</p>
+    </div>
+    <div class="faq-item">
+        <h3>How do I know the quality of teaching is good?</h3>
+        <p>Every mentor has already completed the lesson. Plus, coding exercises **self-verify correctness**.</p>
+    </div>
+    <div class="faq-item">
+        <h3>How long is a session?</h3>
+        <p>**15 minutes** – long enough for meaningful progress, short enough to fit anytime.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Is this free?</h3>
+        <p>The core system is **free to try**.</p>
+    </div>
+</section>
+
+<footer>
+    <p><strong>Start now → <a href="https://learninglab.fans">learninglab.fans</a></strong></p>
+</footer>
+</article>
+<article class="content" id="collaborate">
+  <h2>Help Shape the Future of Learning</h2>
+        <p>Are you passionate about education, mentorship, or curriculum development? <strong>Learning Lab</strong> is looking for collaborators to help refine 
+        our peer-learning system for coding interviews and beyond. Whether you're a:</p>
+
+        <ul>
+            <li>🔹 <strong>Curriculum Developer</strong> – Design structured lessons that make learning intuitive and effective.</li>
+            <li>🔹 <strong>Mentor</strong> – Guide learners through concepts, provide insights, and shape their growth.</li>
+            <li>🔹 <strong>Educator or Researcher</strong> – Share your expertise in pedagogy, learning science, or tech education.</li>
+            <li>🔹 <strong>Learner with Feedback</strong> – Help improve the experience with real-world insights.</li>
+        </ul>
+
+        <p>If you’re interested in <strong>collaborating, mentoring, or providing feedback</strong>, I’d love to hear from you!</p>
+
+        <p><strong>📩 Reach out at:</strong> <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
+</article>
+<article class="content" id="thomas">
+  <h2>Passionate About Learning, Teaching, and Making Knowledge Accessible</h2>
+  <p>Hi, I’m Thomas, a senior software engineer with two decades of experience, having worked at companies like Google and Meta. 
+  Beyond coding, I’ve spent years refining how people learn—whether it’s teaching acroyoga, partner dance, or developing innovative peer-learning methods. 
+  I believe that learning shouldn’t be a lonely, frustrating experience. That’s why I created <strong>Learning Lab</strong>, an interactive platform where 
+  students can connect, teach, and grow together. My mission is to make <strong>technical learning faster, more engaging, and deeply effective</strong> 
+  through real-time peer interaction.</p>
+
+  <p><strong>📩 Contact:</strong> <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
+</article>
+<article class="site-info">
+  <p><a href="terms.html">Terms of Use</a> - <a href="privacy-policy.html">Privacy Policy</a></p>
+  <p>Contact: <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
+  <p>(C) 2025 Thomas Fischer</p>
+</article>
+<div class="header-bar">
+  <div class="header-nav">
+    <div class="navigation">
+      <div class="navigation-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </div>
+      <nav class="navigation-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#why">Why it works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#collaborate">Collaborate</a></li>
+          <li><a href="#thomas">About Thomas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="header-text">
+    <h2><img src="images/plain-learning-lab-logo.svg" class="logo"/><b style="letter-spacing: .1em;">Coding Interview</b> learning lab</h2>
+  </div>
+  <div class="header-placeholder">.</div>
+</div>
+<div class="action-bar">
+  <div class="action-bar-placeholder">.</div>
+  <div class="action-bar-usp">
+    <h2>Don't Get Stuck.<br/>Learn DSA With Peers.</h2>
+  </div>
+  <div class="action-bar-button">
+    <div><!--<a href="https://www.instagram.com/sensualbachatalabnyc/"><img class="insta-icon" src="images/Instagram_Glyph_Black.png" alt="instagram logo" onmouseover="this.src='images/Instagram_Glyph_Gradient.png';" onmouseout="this.src='images/Instagram_Glyph_Black.png';"/></a>--></div>
+    <div>
+      <form method="get" action="https://learninglab.fans">
+        <input class="pillboxButton" type="submit" value="Start!"/>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+<script src="javascript/navigation.js"></script>
+</html>
