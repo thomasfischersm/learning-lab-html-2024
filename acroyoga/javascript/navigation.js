@@ -128,6 +128,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2025-02-22"
     },
     {
+      "name": "Community acroyoga class on Sunday, 5/18/25 from 3 to 4:30 PM at Central Park: <a href='https://www.eventbrite.com/e/acroyoga-in-central-park-community-class-for-all-levels-tickets-1361808368489'>Sign up on Eventbrite</a>",
+      "date": "2025-05-18"
+    },
+    {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
       "date": "2030-12-1"
     } 
