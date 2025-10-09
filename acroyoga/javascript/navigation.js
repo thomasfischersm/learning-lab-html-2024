@@ -132,6 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2025-05-18"
     },
     {
+      "name": "Acroyoga on Tuesdays from 7 to 8:30 PM (10/14, 10/21, and 10/28): <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-tuesday-15-hours-tickets-1798478500609'>Sign up on Eventbrite</a>",
+      "date": "2025-10-29"
+    },
+    {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
       "date": "2030-12-1"
     } 
