@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       "name": "November is Acro Discovery Month! Free Tuesday classes (11/4, 11/11, 11/18, and 11/25). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-discovery-month-tuesday-tickets-1835513733989'>Sign up on Eventbrite</a>",
-      "date": "2025-10-29"
+      "date": "2025-11-26"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",

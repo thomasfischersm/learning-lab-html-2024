@@ -80,20 +80,8 @@ function moveCarousel(step, carouselClass) {
 document.addEventListener("DOMContentLoaded", function () {
   const events = [
     {
-      "name": "Beginner's Acroyoga Workshop",
-      "date": "2023-05-15"
-    },
-    {
-      "name": "Intermediate Acroyoga Techniques",
-      "date": "2023-06-20"
-    },
-    {
-      "name": "Acroyoga for Couples",
-      "date": "2023-07-10"
-    },
-    {
-      "name": "Advanced Acroyoga Poses",
-      "date": "2024-08-05"
+      "name": "Flutter/Dart Wednesday workshops 7 to 10 PM at Ripley-Grier (Midtown NYC). <a href='https://www.eventbrite.com/e/flutterdart-hands-on-workshop-tickets-1849307180559'>Sign up on Eventbrite</a>",
+      "date": "2025-11-27"
     }
   ];
   const container = document.querySelector('.events-container');
