@@ -136,6 +136,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2025-10-29"
     },
     {
+      "name": "Three-hour acroyoga special on Sunday, 11/16/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-discovery-month-tuesday-3-hour-special-tickets-1962597513996'>Sign up on Eventbrite</a>",
+      "date": "2025-10-29"
+    },
+    {
       "name": "November is Acro Discovery Month! Free Tuesday classes (11/4, 11/11, 11/18, and 11/25). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-discovery-month-tuesday-tickets-1835513733989'>Sign up on Eventbrite</a>",
       "date": "2025-11-26"
     }/*,
