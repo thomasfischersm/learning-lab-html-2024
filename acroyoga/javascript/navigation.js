@@ -148,8 +148,16 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2025-11-26"
     },
     {
-      "name": "December is Acro Community Month! Free Tuesday classes (12/6, 12/13, 12/20, and 12/27). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-community-month-tuesday-december-tickets-1971428742438'>Sign up on Eventbrite</a>",
-      "date": "2025-11-26"
+      "name": "December is Acro Community Month! Free Tuesday classes (12/2, 12/9, 12/16, 12/23, and 12/30). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-community-month-tuesday-december-tickets-1971428742438'>Sign up on Eventbrite</a>",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 12/14/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-discovery-month-3-hour-special-tickets-1971480049900'>Sign up on Eventbrite</a>",
+      "date": "2025-12-15"
+    },
+    {
+      "name": "Holiday rehab with three hours of acroyoga on Saturday, 12/27/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-holiday-rehab-tickets-1971474562487'>Sign up on Eventbrite</a>",
+      "date": "2025-12-28"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
