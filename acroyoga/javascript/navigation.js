@@ -158,6 +158,22 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Holiday rehab with three hours of acroyoga on Saturday, 12/27/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-holiday-rehab-tickets-1971474562487'>Sign up on Eventbrite</a>",
       "date": "2025-12-28"
+    },
+    {
+      "name": "January is Acroyoga Launchpad Month! Free Tuesday classes (1/6, 1/13, 1/20, and 1/27). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-month-tickets-1979245973988'>Sign up on Eventbrite</a>",
+      "date": "2026-1-31"
+    },
+    {
+      "name": "Three-hour acroyoga special with <a href='https://www.instagram.com/ariellemovess'>Arielle McConneaughey</a> on Saturday, 1/3/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hours-with-special-guest-arielle-mcconneaughey-tickets-1979419348556'>Sign up on Eventbrite</a>",
+      "date": "2026-1-3"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 1/11/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1979249095324'>Sign up on Eventbrite</a>",
+      "date": "2026-1-11"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 1/24/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1979249279876'>Sign up on Eventbrite</a>",
+      "date": "2026-1-24"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
