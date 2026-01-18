@@ -164,6 +164,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-1-31"
     },
     {
+      "name": "January is Acroyoga Launchpad Month! Free Bonus Wednesday classes (1/21 and 1/28). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-month-bonus-wednesday-tickets-1980793441505'>Sign up on Eventbrite</a>",
+      "date": "2026-1-28"
+    },
+    {
       "name": "Three-hour acroyoga special with <a href='https://www.instagram.com/ariellemovess'>Arielle McConneaughey</a> on Saturday, 1/3/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hours-with-special-guest-arielle-mcconneaughey-tickets-1979419348556'>Sign up on Eventbrite</a>",
       "date": "2026-1-3"
     },
@@ -174,6 +178,22 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Three-hour acroyoga special on Saturday, 1/24/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1979249279876'>Sign up on Eventbrite</a>",
       "date": "2026-1-24"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 1/25/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1980793588946?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-1-25"
+    },
+    {
+      "name": "Feburary is Acroyoga Post-New Year Momentum Month! Free Tuesday classes (2/3, 2/10, and 2/17; break on 2/24). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-februrary-postnew-year-momentum-month-tickets-1980794769477?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-2-17"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 2/7/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-feb-postnew-year-momentum-month-3-hour-special-tickets-1980795211800?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-2-7"
+    },
+    {
+      "name": "Acroyoga workshop at Third Door Yoga (Brooklyn) on Sunday, 2/8/25: <a href='https://www.tickettailor.com/events/thirddoorbrooklyn/2023365'>Sign up with Third Door</a>",
+      "date": "2026-2-8"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
