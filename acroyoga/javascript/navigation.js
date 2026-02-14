@@ -194,6 +194,26 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Acroyoga workshop at Third Door Yoga (Brooklyn) on Sunday, 2/8/25: <a href='https://www.tickettailor.com/events/thirddoorbrooklyn/2023365'>Sign up with Third Door</a>",
       "date": "2026-2-8"
+    },
+    {
+      "name": "March is Acroyoga Washing Machine Milestone Month! Free Tuesday classes (3/3, 3/10, 3/17, 3/24, and 3/31). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-march-washing-machine-milestone-month-tickets-1983150634934?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-3-31"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 3/8/25: <a href='https://www.eventbrite.com/e/1983151953879?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-3-8"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 3/14/25: <a href='https://www.eventbrite.com/e/1983151961903?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-3-14"
+    },
+    {
+      "name": "Slow session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/25: <a href='https://www.eventbrite.com/e/1983151895705?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-3-28"
+    },
+    {
+      "name": "Fast session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/25: <a href='https://www.eventbrite.com/e/1983151929807?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-3-28"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
