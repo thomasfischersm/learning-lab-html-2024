@@ -176,11 +176,11 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-1-11"
     },
     {
-      "name": "Three-hour acroyoga special on Saturday, 1/24/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1979249279876'>Sign up on Eventbrite</a>",
+      "name": "Three-hour acroyoga special on Saturday, 1/24/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1979249279876'>Sign up on Eventbrite</a>",
       "date": "2026-1-24"
     },
     {
-      "name": "Three-hour acroyoga special on Sunday, 1/25/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1980793588946?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "name": "Three-hour acroyoga special on Sunday, 1/25/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1980793588946?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
       "date": "2026-1-25"
     },
     {
@@ -188,11 +188,11 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-2-17"
     },
     {
-      "name": "Three-hour acroyoga special on Saturday, 2/7/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-feb-postnew-year-momentum-month-3-hour-special-tickets-1980795211800?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "name": "Three-hour acroyoga special on Saturday, 2/7/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-feb-postnew-year-momentum-month-3-hour-special-tickets-1980795211800?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
       "date": "2026-2-7"
     },
     {
-      "name": "Acroyoga workshop at Third Door Yoga (Brooklyn) on Sunday, 2/8/25: <a href='https://www.tickettailor.com/events/thirddoorbrooklyn/2023365'>Sign up with Third Door</a>",
+      "name": "Acroyoga workshop at Third Door Yoga (Brooklyn) on Sunday, 2/8/26: <a href='https://www.tickettailor.com/events/thirddoorbrooklyn/2023365'>Sign up with Third Door</a>",
       "date": "2026-2-8"
     },
     {
@@ -200,20 +200,44 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-3-31"
     },
     {
-      "name": "Three-hour acroyoga special on Sunday, 3/8/25: <a href='https://www.eventbrite.com/e/1983151953879?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "name": "Three-hour acroyoga special on Sunday, 3/8/26: <a href='https://www.eventbrite.com/e/1983151953879?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
       "date": "2026-3-8"
     },
     {
-      "name": "Three-hour acroyoga special on Saturday, 3/14/25: <a href='https://www.eventbrite.com/e/1983151961903?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "name": "Three-hour acroyoga special on Saturday, 3/14/26: <a href='https://www.eventbrite.com/e/1983151961903?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
       "date": "2026-3-14"
     },
     {
-      "name": "Slow session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/25: <a href='https://www.eventbrite.com/e/1983151895705?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "name": "Slow session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/26: <a href='https://www.eventbrite.com/e/1983151895705?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-3-28"
     },
     {
-      "name": "Fast session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/25: <a href='https://www.eventbrite.com/e/1983151929807?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "name": "Fast session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/26: <a href='https://www.eventbrite.com/e/1983151929807?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-3-28"
+    },
+    {
+      "name": "April is Summer Jam Readiness Month! Free Tuesday classes (4/7, 4/14, 4/21,  and 4/28). Donations welcome: <a href='https://www.eventbrite.com/e/1986103727714?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-4-28"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 4/18/26: <a href='https://www.eventbrite.com/e/1986104772840?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-4-18"
+    },
+    {
+      "name": "Acroyoga photo shoot with cherry blossoms at Flushing Meadow on Saturday, 4/4/26: <a href='https://www.eventbrite.com/e/1986105352574?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-4-4"
+    },
+    {
+      "name": "Golden Hour photo shoot  with cherry blossoms at Central Park on Saturday, 4/12/26: <a href='https://www.eventbrite.com/e/1986105709642?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-4-12"
+    },
+    {
+      "name": "Spring Acroyoga Photo Shoot and Hang On Governor's Island on Saturday, 5/2/26: <a href='https://www.eventbrite.com/e/1986106173028?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-2"
+    },
+    {
+      "name": "Acroyoga & spring hike to Harriman State Park plus photo shoot on Saturday, 5/9/26: <a href='https://www.eventbrite.com/e/1986106958377?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-9"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
