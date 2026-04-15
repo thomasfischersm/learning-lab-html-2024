@@ -236,6 +236,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-5-2"
     },
     {
+      "name": "2.5 hour acroyoga workshop at Third Door Yoga (Brooklyn) on Sunday, 5/3/26: <a href='https://www.tickettailor.com/events/thirddoorbrooklyn/2164621'>Sign up directly at Third Door Yoga</a>",
+      "date": "2026-5-3"
+    },
+    {
       "name": "Acroyoga & spring hike to Harriman State Park plus photo shoot on Saturday, 5/9/26: <a href='https://www.eventbrite.com/e/1986106958377?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-5-9"
     }/*,
