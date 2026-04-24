@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Acroyoga Learning Lab</title>
+  <!-- Fix before going live! -->
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PWHCGZHQ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Remove these before going live. -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <!-- Start cookieyes banner -->
+  <!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/0d8a0989f6fa4f47a0690306/script.js"></script>  -->
+  <!-- End cookieyes banner -->
+
+  <!-- Termly -->
+  <!--<script
+  type="text/javascript"
+  src="https://app.termly.io/resource-blocker/bdae4e4f-4c9e-4e2c-85fe-d9cfaf591a1f?autoBlock=on"
+></script>-->
+  <!-- End Termly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <script type="application/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      syncAllElements();
+    });
+
+    window.onresize = function () {
+      syncAllElements();
+    };
+
+    function syncAllElements() {
+      //	syncElementWidth('.header-nav', '.header-placeholder');
+      //	syncElementWidth('.action-bar-button', '.action-bar-placeholder');
+
+      // Sync header height to top padding.
+      var headerBarHeight = document.querySelector('.header-bar').offsetHeight;
+      var footerBarHeight = document.querySelector('.action-bar').offsetHeight;
+      var contentDivs = document.querySelectorAll('.content');
+
+      contentDivs.forEach(contentDiv => {
+        contentDiv.style.paddingTop = headerBarHeight + 'px';
+        contentDiv.style.paddingBottom = footerBarHeight + 'px';
+      });
+
+      var siteInfoDivs = document.querySelectorAll('.site-info');
+
+      siteInfoDivs.forEach(siteInfoDiv => {
+        siteInfoDiv.style.paddingBottom = footerBarHeight + 'px';
+      });
+
+    }
+
+    function syncElementWidth(srcElementCss, targetElementCss) {
+      var child1 = document.querySelector(srcElementCss);
+      var placeholder = document.querySelector(targetElementCss);
+
+      placeholder.style.width = child1.offsetWidth + 'px';
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWHCGZHQ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <article class="content" id="home">
+    <h1>Online Orientation</nobr>
+    </h1>
+    <p>Every student has to go through the online orientation before attenting their first in-person class. 
+      To ensure that students actually went through the orientation, there is a quiz at the end. 
+      You'll receive an access code that allows you to sign up on Eventbrite.</p>
+    <h2>Why?</h2>
+    <ul>
+      <li>Know the safety rules and how things work so your first class isn’t overwhelming.</li>
+      <li>Skip repeating the same orientation when new students join.</li>
+      <li>Arrive ready to jump straight into physical practice.</li>
+    </ul>
+    <h2>Required Videos</h2>
+    <ul>
+      <li><a href="">Welcome</a> 3:25 min</li>
+    </ul>
+    <h2>Bonus Videos</h2>
+    <ul>
+      <li><a href="">Welcome</a> 3:25 min</li>
+    </ul>
+    <h2>Quiz</h2>
+    <p>Relax — the quiz is open book. It only covers what you need to know in class. 
+    For example, if someone calls “Down!”, you need to know exactly what to do. 
+    You won’t be asked about background or trivia.</p>
+    <p>Because it only covers essential knowledge, the passing score is 100%.</p>
+    <p>Take this seriously. If you watch the videos and pay attention, this will be a slam dunk. 
+    If you try to wing it, you risk creating safety issues and disrupting the class.</p>
+    <p><a href="https://forms.gle/PU4w7YFbBgeEoXub8" target="_blank">Take the Quiz</a></p>
+    <h2>Sign Up For Your First Class</h2>
+    <p><a href="https://www.eventbrite.com/cc/acroyoga-learning-labs-3010889">Sign up on Eventbrite</a></p>
+  </article>
+  <article class="site-info">
+    <p><a href="../terms.html">Terms of Use</a> - <a href="../privacy-policy.html">Privacy Policy</a></p>
+    <p>Contact: <a href="mailto:thomas@learninglab.fans">thomas@learninglab.fans</a></p>
+    <p>(C) 2026 Thomas Fischer</p>
+  </article>
+  <div class="header-bar">
+    <div class="header-nav">
+      <div class="navigation">
+        <div class="navigation-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
+        </div>
+        <nav class="navigation-menu">
+          <ul>
+            <li><a href="../index.html">Return to site</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header-text">
+      <h2><img src="images/plain-learning-lab-logo.svg" class="logo"/><b style="letter-spacing: .1em;">Acroyoga</b> learning lab</h2>
+    </div>
+    <div class="header-placeholder">.</div>
+  </div>
+  <div class="action-bar">
+    <div class="action-bar-placeholder">.</div>
+    <div class="action-bar-usp">
+      <h2>Never Too Grown Up For Play:<br />
+        Discover Acroyoga</h2>
+    </div>
+    <div class="action-bar-button">
+      <div><a href="https://www.instagram.com/acroyogalabnyc/"><img class="insta-icon"
+            src="images/Instagram_Glyph_Black.png" alt="instagram logo"
+            onmouseover="this.src='images/Instagram_Glyph_Gradient.png';"
+            onmouseout="this.src='images/Instagram_Glyph_Black.png';" /></a> </div>
+      <div>
+        <form method="get" action="https://www.eventbrite.com/cc/acroyoga-learning-labs-3010889">
+          <input class="pillboxButton" type="submit" value="Sign up!" />
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="javascript/navigation.js"></script>
+
+</html>
