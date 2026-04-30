@@ -242,6 +242,14 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Acroyoga & spring hike to Harriman State Park plus photo shoot on Saturday, 5/9/26: <a href='https://www.eventbrite.com/e/1986106958377?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-5-9"
+    },
+    {
+      "name": "Acroyoga photoshoot: Central Park Conservatory Garden on Sunday, 5/17/26: <a href='https://www.eventbrite.com/e/1988530020822?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-17"
+    },
+    {
+      "name": "Acroyoga photoshoot: Bushwick Graffiti on Sunday, 5/24/26: <a href='https://www.eventbrite.com/e/1988530199356?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-24"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
