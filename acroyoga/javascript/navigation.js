@@ -232,6 +232,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-4-12"
     },
     {
+      "name": "Free Tuesday classes: <a href='https://www.eventbrite.com/e/1988439445910?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-7-1"
+    },
+    {
       "name": "Spring Acroyoga Photo Shoot and Hang On Governor's Island on Saturday, 5/2/26: <a href='https://www.eventbrite.com/e/1986106173028?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-5-2"
     },
