@@ -254,6 +254,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Acroyoga photoshoot: Bushwick Graffiti on Sunday, 5/24/26: <a href='https://www.eventbrite.com/e/1988530199356?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-5-24"
+    },
+    {
+      "name": "Acroyoga photoshoot day trip: Cherry Gove/Sunken Island on Sunday, 6/28/26: <a href='https://www.eventbrite.com/e/1988780670522?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-6-28"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
