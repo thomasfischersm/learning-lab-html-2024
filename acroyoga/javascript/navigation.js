@@ -256,6 +256,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-5-24"
     },
     {
+      "name": "3-Hour Acroyoga workshop in Central Park on Memorial Day: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-special-in-central-park-tickets-1989430525255?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-5-25"
+    },
+    {
       "name": "Acroyoga photoshoot day trip: Cherry Gove/Sunken Island on Sunday, 6/28/26: <a href='https://www.eventbrite.com/e/1988780670522?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-6-28"
     }/*,
