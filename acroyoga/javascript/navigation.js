@@ -264,8 +264,12 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-6-28"
     },
     {
-      "name": "3-Hour Acroyoga workshop in Central Park on Labor Day: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-labor-day-special-in-central-park-tickets-1990669919316'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "name": "3-Hour Acroyoga workshop in Central Park on 7/3/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-labor-day-special-in-central-park-tickets-1990669919316'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
       "date": "2026-7-3"
+    },
+    {
+      "name": "Fort Tilden Beach Acro photoshoot and hangout on 7/4/26: <a href='https://www.eventbrite.com/e/acroyoga-fort-tilden-beach-hangoutphotoshoot-on-independence-day-tickets-1991511245746?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-7-4"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
