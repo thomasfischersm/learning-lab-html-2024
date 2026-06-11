@@ -270,6 +270,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Fort Tilden Beach Acro photoshoot and hangout on 7/4/26: <a href='https://www.eventbrite.com/e/acroyoga-fort-tilden-beach-hangoutphotoshoot-on-independence-day-tickets-1991511245746?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
       "date": "2026-7-4"
+    },
+    {
+      "name": "Rockaway Beach Acro photoshoot and hangout on 7/11/26: <a href='https://www.eventbrite.com/e/acroyoga-rockaway-beach-hangoutphotoshoot-tickets-1991735115346'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-7-11"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
