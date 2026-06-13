@@ -268,11 +268,11 @@ document.addEventListener("DOMContentLoaded", function () {
       "date": "2026-7-3"
     },
     {
-      "name": "Fort Tilden Beach Acro photoshoot and hangout on 7/4/26: <a href='https://www.eventbrite.com/e/acroyoga-fort-tilden-beach-hangoutphotoshoot-on-independence-day-tickets-1991511245746?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "name": "Fort Tilden Beach Acro photoshoot and hangout on 7/4/26: <a href='https://www.eventbrite.com/e/acroyoga-fort-tilden-beach-hangoutphotoshoot-on-independence-day-tickets-1991511245746?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-7-4"
     },
     {
-      "name": "Rockaway Beach Acro photoshoot and hangout on 7/11/26: <a href='https://www.eventbrite.com/e/acroyoga-rockaway-beach-hangoutphotoshoot-tickets-1991735115346'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "name": "Rockaway Beach Acro photoshoot and hangout on 7/11/26: <a href='https://www.eventbrite.com/e/acroyoga-rockaway-beach-hangoutphotoshoot-tickets-1991735115346'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-7-11"
     }/*,
     {
