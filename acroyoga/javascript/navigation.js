@@ -274,6 +274,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Rockaway Beach Acro photoshoot and hangout on 7/11/26: <a href='https://www.eventbrite.com/e/acroyoga-rockaway-beach-hangoutphotoshoot-tickets-1991735115346'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-7-11"
+    },
+    {
+      "name": "Madam Brett Falls acryoga day trip and photoshoot on Saturday, 8/1/26: <a href='https://www.eventbrite.com/e/madam-brett-falls-acroyoga-day-tripphotoshoot-tickets-1991840083308?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-1"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
