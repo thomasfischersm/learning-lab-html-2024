@@ -278,6 +278,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Madam Brett Falls acryoga day trip and photoshoot on Saturday, 8/1/26: <a href='https://www.eventbrite.com/e/madam-brett-falls-acroyoga-day-tripphotoshoot-tickets-1991840083308?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-8-1"
+    },
+    {
+      "name": "Acroyoga & summer hike to Harriman State Park plus photo shoot on Saturday, 8/8/26: <a href='https://www.eventbrite.com/e/1991841608871?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-8"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
