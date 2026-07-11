@@ -282,6 +282,18 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Acroyoga & summer hike to Harriman State Park plus photo shoot on Saturday, 8/8/26: <a href='https://www.eventbrite.com/e/1991841608871?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-8-8"
+    },
+    {
+      "name": "Acroyoga & summer hike to Minnewaska State Park plus photo shoot on Saturday, 8/16/26: <a href='https://www.eventbrite.com/e/acroyoga-summer-hike-to-minnewaska-state-park-plus-photo-shoot-tickets-1993749156397'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-16"
+    },
+    {
+      "name": "Rockaway Beach Acro photoshoot and hangout on 8/22/26: <a href='https://www.eventbrite.com/e/acroyoga-rockaway-beach-hangoutphotoshoot-tickets-1993749952779'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-22"
+    },
+    {
+      "name": "Robert Moses Beach Acro photoshoot and hangout on 8/29/26: <a href='https://www.eventbrite.com/e/acroyoga-robert-moses-beach-hangoutphotoshoot-tickets-1993750384069?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-29"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
