@@ -294,6 +294,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Acroyoga & summer hike to Harriman State Park plus photo shoot on Saturday, 9/5/26: <a href='https://www.eventbrite.com/e/1991841608871?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-9-5"
+    },
+    {
+      "name": "Governor's Island acroyoga hangout and photoshoot on Sunday, 9/13/26: <a href='https://www.eventbrite.com/e/acroyoga-photo-shoot-and-hang-on-governors-island-tickets-1996820679405'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-9-5"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
