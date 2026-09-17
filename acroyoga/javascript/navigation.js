@@ -298,6 +298,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Governor's Island acroyoga hangout and photoshoot on Sunday, 9/13/26: <a href='https://www.eventbrite.com/e/acroyoga-photo-shoot-and-hang-on-governors-island-tickets-1996820679405'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-9-13"
+    },
+    {
+      "name": "Untermeyer Garden acroyoga hangout and photoshoot on Sunday, 10/11/26: <a href='https://www.eventbrite.com/e/acroyoga-photo-shoot-and-hang-at-untermeyer-gardens-tickets-2001282174858'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-10-11"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
