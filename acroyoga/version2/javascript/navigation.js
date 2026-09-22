@@ -1,0 +1,340 @@
+// Code for the site navigation.
+const toggleButton = document.querySelector('.navigation-toggle');
+const navigationMenu = document.querySelector('.navigation-menu');
+
+toggleButton.addEventListener('click', () => {
+  navigationMenu.classList.toggle('active');
+});
+
+// Add smooth scrolling to menu links (optional)
+const menuLinks = document.querySelectorAll('.navigation-menu a');
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', function () {
+    const sectionId = this.getAttribute('href');
+    const sectionElement = document.querySelector(sectionId);
+    //    const headerBar = document.querySelector('.header-bar');
+    //    const headerHeight = headerBar ? headerBar.offsetHeight : 0;
+
+    if (sectionElement) {
+      //      const elementPosition = sectionElement.getBoundingClientRect().top + window.pageYOffset;
+      //      window.scrollTo({
+      //        top: elementPosition - headerHeight,
+      //        behavior: 'smooth'
+      //      });
+
+      sectionElement.scrollIntoView({
+        behavior: 'smooth'
+      });
+      navigationMenu.classList.remove('active'); // Close menu after click
+      //      console.log('foreach triggered');
+    }
+  });
+});
+
+// Hide the navigation menu if the user clicks outside of it.
+document.addEventListener('click', function (event) {
+  var isClickInsideNav = navigationMenu.contains(event.target);
+  var isNavIcon = toggleButton.contains(event.target);
+
+  if (!isClickInsideNav && !isNavIcon) {
+    // Code to hide your navigation menu
+    navigationMenu.classList.remove('active');
+    //	  console.log('click triggered');
+  }
+},)
+
+
+// YouTube Carousel code
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.youtube-carousel-prev').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var carouselClass = this.parentElement.className;
+      moveCarousel(-1, carouselClass);
+    });
+  });
+
+  document.querySelectorAll('.youtube-carousel-next').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var carouselClass = this.parentElement.className;
+      moveCarousel(1, carouselClass);
+    });
+  });
+});
+
+function moveCarousel(step, carouselClass) {
+  var carousel = document.querySelector('.' + carouselClass);
+  var items = carousel.querySelectorAll('.carousel-item');
+  var activeIndex = Array.from(items).findIndex(item => item.classList.contains('carousel-item-active'));
+
+  items[activeIndex].classList.remove('carousel-item-active');
+
+  var newIndex = activeIndex + step;
+  if (newIndex >= items.length) newIndex = items.length - 1;
+  if (newIndex < 0) newIndex = 0;
+
+  items[newIndex].classList.add('carousel-item-active');
+}
+
+// Code for upcoming special events
+document.addEventListener("DOMContentLoaded", function () {
+  const events = [
+    {
+      "name": "Free Spring Open House 6:00 PM",
+      "date": "2024-04-19"
+    },
+    {
+      "name": "4-Week Absolute Beginner Cycle 6:00 PM",
+      "date": "2024-04-26"
+    },
+    {
+      "name": "Free Community Spotting Clinic in Central Park",
+      "date": "2024-05-04"
+    },
+    {
+      "name": "Free Summer Kick-Off In Central Park: 3-hour session",
+      "date": "2024-05-18"
+    },
+    {
+      "name": "Free Summer Kick-Off Open House 6:00 PM",
+      "date": "2024-05-24"
+    },
+    {
+      "name": "Memorial Day: Free 3-hour acroyoga session in Central Park",
+      "date": "2024-05-27"
+    },
+    {
+      "name": "<span style='color: red'>Mostly on summer break June through August</span>",
+      "date": "2024-09-1"
+    },
+    {
+      "name": "Workshop at Pagan's Paradise: Lunar Acroyoga Flow for Couples: Trust, Connection, and Healing. To join, sign up with <a href='https://www.eventbrite.com/e/lunar-acroyoga-flow-for-couples-trust-connection-and-healing-new-tickets-920644742207'>Pagan's Paradise</a>, not Learning Lab!",
+      "date": "2024-07-02"
+    },
+    {
+      "name": "Workshop at Pagan's Paradise: Lunar Acroyoga Flow for Couples: Trust, Connection, and Healing. To join, sign up with <a href='https://www.eventbrite.com/e/lunar-acroyoga-flow-for-couples-clothing-optional-new-tickets-1006589475217'>Pagan's Paradise</a>, not Learning Lab!",
+      "date": "2024-09-26"
+    },
+    {
+      "name": "<span style='color: red'>On teaching break with occasional workshops.</span>",
+      "date": "2024-12-1"
+    },
+    {
+      "name": "Workshop at Pagan's Paradise: Lunar Acroyoga Flow for Couples: Trust, Connection, and Healing. To join, sign up with <a href='https://www.eventbrite.com/e/lunar-acroyoga-for-intimacy-trust-and-communication-couples-friends-tickets-1095693120619'>Pagan's Paradise</a>, not Learning Lab!",
+      "date": "2024-12-17"
+    },
+    {
+      "name": "Open house acroyoga session on Saturday, 2/22/25 from 3 to 4:30 PM at Ripley Grier (Midtown NYC): <a href='https://www.eventbrite.com/e/acroyoga-open-house-learning-lab-nyc-tickets-1255099419149'>Sign up on Eventbrite</a>",
+      "date": "2025-02-22"
+    },
+    {
+      "name": "Community acroyoga class on Sunday, 5/18/25 from 3 to 4:30 PM at Central Park: <a href='https://www.eventbrite.com/e/acroyoga-in-central-park-community-class-for-all-levels-tickets-1361808368489'>Sign up on Eventbrite</a>",
+      "date": "2025-05-18"
+    },
+    {
+      "name": "Acroyoga on Tuesdays from 7 to 8:30 PM (10/14, 10/21, and 10/28): <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-tuesday-15-hours-tickets-1798478500609'>Sign up on Eventbrite</a>",
+      "date": "2025-10-29"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 11/16/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-discovery-month-tuesday-3-hour-special-tickets-1962597513996'>Sign up on Eventbrite</a>",
+      "date": "2025-11-16"
+    },
+    {
+      "name": "Thanksgiving rehab with three hours of acroyoga on Saturday, 11/29/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-thanksgiving-special-tickets-1963418569796'>Sign up on Eventbrite</a>",
+      "date": "2025-11-29"
+    },
+    {
+      "name": "November is Acro Discovery Month! Free Tuesday classes (11/4, 11/11, 11/18, and 11/25). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-discovery-month-tuesday-tickets-1835513733989'>Sign up on Eventbrite</a>",
+      "date": "2025-11-26"
+    },
+    {
+      "name": "December is Acro Community Month! Free Tuesday classes (12/2, 12/9, 12/16, 12/23, and 12/30). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-community-month-tuesday-december-tickets-1971428742438'>Sign up on Eventbrite</a>",
+      "date": "2025-12-31"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 12/14/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-discovery-month-3-hour-special-tickets-1971480049900'>Sign up on Eventbrite</a>",
+      "date": "2025-12-15"
+    },
+    {
+      "name": "Holiday rehab with three hours of acroyoga on Saturday, 12/27/25: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-holiday-rehab-tickets-1971474562487'>Sign up on Eventbrite</a>",
+      "date": "2025-12-28"
+    },
+    {
+      "name": "January is Acroyoga Launchpad Month! Free Tuesday classes (1/6, 1/13, 1/20, and 1/27). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-month-tickets-1979245973988'>Sign up on Eventbrite</a>",
+      "date": "2026-1-31"
+    },
+    {
+      "name": "January is Acroyoga Launchpad Month! Free Bonus Wednesday classes (1/21 and 1/28). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-month-bonus-wednesday-tickets-1980793441505'>Sign up on Eventbrite</a>",
+      "date": "2026-1-28"
+    },
+    {
+      "name": "Three-hour acroyoga special with <a href='https://www.instagram.com/ariellemovess'>Arielle McConneaughey</a> on Saturday, 1/3/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hours-with-special-guest-arielle-mcconneaughey-tickets-1979419348556'>Sign up on Eventbrite</a>",
+      "date": "2026-1-3"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 1/11/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1979249095324'>Sign up on Eventbrite</a>",
+      "date": "2026-1-11"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 1/24/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1979249279876'>Sign up on Eventbrite</a>",
+      "date": "2026-1-24"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 1/25/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-january-acroyoga-launchpad-3-hour-special-tickets-1980793588946?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-1-25"
+    },
+    {
+      "name": "Feburary is Acroyoga Post-New Year Momentum Month! Free Tuesday classes (2/3, 2/10, and 2/17; break on 2/24). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-februrary-postnew-year-momentum-month-tickets-1980794769477?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-2-17"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 2/7/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-feb-postnew-year-momentum-month-3-hour-special-tickets-1980795211800?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-2-7"
+    },
+    {
+      "name": "Acroyoga workshop at Third Door Yoga (Brooklyn) on Sunday, 2/8/26: <a href='https://www.tickettailor.com/events/thirddoorbrooklyn/2023365'>Sign up with Third Door</a>",
+      "date": "2026-2-8"
+    },
+    {
+      "name": "March is Acroyoga Washing Machine Milestone Month! Free Tuesday classes (3/3, 3/10, 3/17, 3/24, and 3/31). Donations welcome: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-march-washing-machine-milestone-month-tickets-1983150634934?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-3-31"
+    },
+    {
+      "name": "Three-hour acroyoga special on Sunday, 3/8/26: <a href='https://www.eventbrite.com/e/1983151953879?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-3-8"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 3/14/26: <a href='https://www.eventbrite.com/e/1983151961903?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-3-14"
+    },
+    {
+      "name": "Slow session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/26: <a href='https://www.eventbrite.com/e/1983151895705?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-3-28"
+    },
+    {
+      "name": "Fast session: Acroyoga Photoshoot at Grand Central on Saturday, 3/28/26: <a href='https://www.eventbrite.com/e/1983151929807?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-3-28"
+    },
+    {
+      "name": "April is Summer Jam Readiness Month! Free Tuesday classes (4/7, 4/14, 4/21,  and 4/28). Donations welcome: <a href='https://www.eventbrite.com/e/1986103727714?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-4-28"
+    },
+    {
+      "name": "Three-hour acroyoga special on Saturday, 4/18/26: <a href='https://www.eventbrite.com/e/1986104772840?aff=oddtdtcreator'>Sign up on Eventbrite</a>",
+      "date": "2026-4-18"
+    },
+    {
+      "name": "Acroyoga photo shoot with cherry blossoms at Flushing Meadow on Saturday, 4/4/26: <a href='https://www.eventbrite.com/e/1986105352574?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-4-4"
+    },
+    {
+      "name": "Golden Hour photo shoot  with cherry blossoms at Central Park on Saturday, 4/12/26: <a href='https://www.eventbrite.com/e/1986105709642?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-4-12"
+    },
+    {
+      "name": "Free Tuesday classes: <a href='https://www.eventbrite.com/e/1988439445910?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-9-29"
+    },
+    {
+      "name": "Spring Acroyoga Photo Shoot and Hang On Governor's Island on Saturday, 5/2/26: <a href='https://www.eventbrite.com/e/1986106173028?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-2"
+    },
+    {
+      "name": "2.5 hour acroyoga workshop at Third Door Yoga (Brooklyn) on Sunday, 5/3/26: <a href='https://www.tickettailor.com/events/thirddoorbrooklyn/2164621'>Sign up directly at Third Door Yoga</a>",
+      "date": "2026-5-3"
+    },
+    {
+      "name": "Acroyoga & spring hike to Harriman State Park plus photo shoot on Saturday, 5/9/26: <a href='https://www.eventbrite.com/e/1986106958377?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-9"
+    },
+    {
+      "name": "Acroyoga photoshoot: Central Park Conservatory Garden on Sunday, 5/17/26: <a href='https://www.eventbrite.com/e/1988530020822?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-17"
+    },
+    {
+      "name": "Acroyoga photoshoot: Bushwick Graffiti on Sunday, 5/24/26: <a href='https://www.eventbrite.com/e/1988530199356?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-5-24"
+    },
+    {
+      "name": "3-Hour Acroyoga workshop in Central Park on Memorial Day: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-special-in-central-park-tickets-1989430525255?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-5-25"
+    },
+    {
+      "name": "Acroyoga photoshoot day trip: Cherry Gove/Sunken Island on Sunday, 6/28/26: <a href='https://www.eventbrite.com/e/1988780670522?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-6-28"
+    },
+    {
+      "name": "3-Hour Acroyoga workshop in Central Park on 7/3/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-labor-day-special-in-central-park-tickets-1990669919316'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-7-3"
+    },
+    {
+      "name": "Fort Tilden Beach Acro photoshoot and hangout on 7/4/26: <a href='https://www.eventbrite.com/e/acroyoga-fort-tilden-beach-hangoutphotoshoot-on-independence-day-tickets-1991511245746?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-7-4"
+    },
+    {
+      "name": "Rockaway Beach Acro photoshoot and hangout on 7/11/26: <a href='https://www.eventbrite.com/e/acroyoga-rockaway-beach-hangoutphotoshoot-tickets-1991735115346'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-7-11"
+    },
+    {
+      "name": "Madam Brett Falls acryoga day trip and photoshoot on Saturday, 8/1/26: <a href='https://www.eventbrite.com/e/madam-brett-falls-acroyoga-day-tripphotoshoot-tickets-1991840083308?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-1"
+    },
+    {
+      "name": "Acroyoga & summer hike to Minnewaska State Park plus photo shoot on Saturday, 8/16/26: <a href='https://www.eventbrite.com/e/acroyoga-summer-hike-to-minnewaska-state-park-plus-photo-shoot-tickets-1993749156397'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-16"
+    },
+    {
+      "name": "Rockaway Beach Acro photoshoot and hangout on 8/22/26: <a href='https://www.eventbrite.com/e/acroyoga-rockaway-beach-hangoutphotoshoot-tickets-1993749952779'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-22"
+    },
+    {
+      "name": "Robert Moses Beach Acro photoshoot and hangout on 8/29/26: <a href='https://www.eventbrite.com/e/acroyoga-robert-moses-beach-hangoutphotoshoot-tickets-1993750384069?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-8-29"
+    },
+    {
+      "name": "Acroyoga & summer hike to Harriman State Park plus photo shoot on Saturday, 9/5/26: <a href='https://www.eventbrite.com/e/1991841608871?aff=oddtdtcreator'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-9-5"
+    },
+    {
+      "name": "Governor's Island acroyoga hangout and photoshoot on Sunday, 9/13/26: <a href='https://www.eventbrite.com/e/acroyoga-photo-shoot-and-hang-on-governors-island-tickets-1996820679405'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-9-13"
+    },
+    {
+      "name": "Untermeyer Garden acroyoga hangout and photoshoot on Sunday, 10/11/26: <a href='https://www.eventbrite.com/e/acroyoga-photo-shoot-and-hang-at-untermeyer-gardens-tickets-2001282174858'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-10-11"
+    }/*,
+    {
+      "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
+      "date": "2030-12-1"
+    } */
+  ];
+  const container = document.querySelector('.events-container');
+  const today = new Date();
+
+  const upcomingEvents = events.filter(event => {
+    const eventDate = new Date(event.date.replace(/-/g, '\/'));
+    return eventDate >= today;
+  });
+
+  if (upcomingEvents.length > 0) {
+    let htmlContent = '<p>Upcoming specials:</p><ul>';
+
+    upcomingEvents.forEach(event => {
+      const eventDate = new Date(event.date.replace(/-/g, '\/'));
+      const formattedDate = eventDate.toLocaleDateString('en-US', {
+        weekday: 'long',
+        month: 'numeric',
+        day: 'numeric',
+        year: '2-digit'
+      });
+      htmlContent += `<li>${event.name} - ${formattedDate}</li>`;
+      console.log('asdf ' + eventDate + ' --- ' + formattedDate);
+    });
+
+    htmlContent += '</ul>';
+    container.innerHTML = htmlContent;
+  }
+});
+
+
+// JavaScript Document
