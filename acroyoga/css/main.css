@@ -8,7 +8,16 @@
   --margin-bg-color: #D3D3D3;
   --action-button-color: #FFFDD0; 
   --action-button-font-color: #228B22;
+
+  --photo-page-radius: 2vh;
+  --photo-page-text-bg-color: #E6E6E6;
+  --photo-page-gap: 1.5vh;
+
+  --photo-page-border-color: #FFFFFF;
+  --photo-page-border-width: 0.3vh;
 }
+
+
 /* Learning Lab For Educators color scheme v7 */
 /*:root {
   --header-bg-color: #5B6F7B;
@@ -467,4 +476,250 @@ li {
     width: calc(100vh * 9 / 16);
     max-width: 100%;
   }
+}
+
+
+
+/* Photo-centric version additions */
+.photo-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--photo-page-gap);
+}
+
+.photo-page-image {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+
+  border: var(--photo-page-border-width) solid var(--photo-page-border-color);
+  border-radius: var(--photo-page-radius);
+  box-sizing: border-box;
+}
+
+.photo-page-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-page-text {
+  flex: 0 0 auto;
+
+  background-color: var(--photo-page-text-bg-color);
+
+  border: var(--photo-page-border-width) solid var(--photo-page-border-color);
+  border-radius: var(--photo-page-radius);
+  box-sizing: border-box;
+
+  padding: 1.5vh;
+}
+
+.photo-page-text p {
+  margin: 0;
+  font-size: 1.7vh;
+  line-height: 1.4;
+}
+
+.photo-page-text p {
+  margin: 0 0 1.4em 0;
+  font-size: 1.7vh;
+  line-height: 1.4;
+}
+
+.photo-page-text p:last-child {
+  margin-bottom: 0;
+}
+
+.photo-page-image {
+  margin-top: var(--photo-page-gap);
+}
+
+.photo-page-text {
+  margin-bottom: var(--photo-page-gap);
+}
+
+.getting-started {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+
+.getting-started-step {
+  padding: 1.5vh;
+  border-radius: var(--photo-page-radius);
+  border: var(--photo-page-border-width) solid var(--photo-page-border-color);
+  background-color: var(--photo-page-text-bg-color);
+}
+
+.getting-started-step h2 {
+  margin-top: 0;
+  margin-bottom: 0.8vh;
+}
+
+.getting-started-step p {
+  margin-top: 0;
+  margin-bottom: 0.8vh;
+}
+
+.getting-started-step p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Make Step 1 visually dominant */
+.primary-step {
+  padding: 2vh;
+}
+
+.primary-step h2 {
+  font-size: 2.4vh;
+}
+
+
+/* Main call-to-action */
+.getting-started-button {
+  display: block;
+
+  margin-top: 1.5vh;
+  padding: 1.5vh 2vh;
+
+  background-color: var(--footer-bg-color);
+  color: var(--footer-font-color);
+
+  border-radius: 100vh;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 2.2vh;
+  font-weight: bold;
+}
+
+.getting-started-button:hover {
+  filter: brightness(0.9);
+}
+
+
+/* Fine print */
+.getting-started-note {
+  font-size: 1.4vh;
+  font-style: italic;
+}
+
+
+/* Links underneath the main CTA */
+.getting-started-footer {
+  text-align: center;
+}
+
+.getting-started-footer p {
+  margin: 0;
+}
+
+
+/* Student interview page. */
+.student-interview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5vh 1vh;
+}
+
+.student-interview {
+  min-width: 0;
+}
+
+.student-video-thumb {
+  position: relative;
+  display: block;
+
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  overflow: hidden;
+
+  border-radius: var(--photo-page-radius);
+  border: var(--photo-page-border-width) solid var(--photo-page-border-color);
+
+  box-sizing: border-box;
+}
+
+.student-video-thumb img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+/* Dark circle behind play triangle */
+.student-video-play {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 4vh;
+  height: 4vh;
+
+  border-radius: 50%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  pointer-events: none;
+}
+
+
+/* Play triangle */
+.student-video-play::after {
+  content: "";
+
+  width: 0;
+  height: 0;
+
+  border-top: 0.8vh solid transparent;
+  border-bottom: 0.8vh solid transparent;
+  border-left: 1.2vh solid white;
+
+  margin-left: 0.25vh;
+}
+
+.student-video-thumb:hover .student-video-play {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.student-name {
+  margin-top: 0.5vh;
+
+  text-align: center;
+
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+
+.about-thomas-photo {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 1.5vh;
+}
+
+.about-thomas-photo img {
+  width: 14vh;
+  height: 14vh;
+
+  object-fit: cover;
+  border-radius: 50%;
+
+  border: var(--photo-page-border-width) solid var(--photo-page-border-color);
+
+  display: block;
 }
