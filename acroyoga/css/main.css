@@ -709,12 +709,13 @@ li {
   display: flex;
   justify-content: center;
 
-  margin-bottom: 1.5vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
 }
 
 .about-thomas-photo img {
-  width: 14vh;
-  height: 14vh;
+  width: 30vh;
+  height: 30vh;
 
   object-fit: cover;
   border-radius: 50%;
