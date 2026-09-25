@@ -302,6 +302,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "Untermeyer Garden acroyoga hangout and photoshoot on Sunday, 10/11/26: <a href='https://www.eventbrite.com/e/acroyoga-photo-shoot-and-hang-at-untermeyer-gardens-tickets-2001282174858'>Sign up on Eventbrite (return students only!)</a>",
       "date": "2026-10-11"
+    },
+    {
+      "name": "Untermeyer Garden acroyoga hangout and photoshoot on Sunday, 10/11/26: <a href='https://www.eventbrite.com/e/acroyoga-photo-shoot-and-hang-at-untermeyer-gardens-tickets-2001282174858'>Sign up on Eventbrite (return students only!)</a>",
+      "date": "2026-9-25"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
@@ -309,11 +313,12 @@ document.addEventListener("DOMContentLoaded", function () {
     } */
   ];
   const container = document.querySelector('.events-container');
-  const today = new Date();
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 1);
 
   const upcomingEvents = events.filter(event => {
     const eventDate = new Date(event.date.replace(/-/g, '\/'));
-    return eventDate >= today;
+    return eventDate >= cutoff;
   });
 
   if (upcomingEvents.length > 0) {
