@@ -310,6 +310,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "name": "3-Hour Acroyoga workshop on Sunday, 11/8/26: <a href='https://www.eventbrite.com/e/acroyoga-learning-lab-3-hour-special-tickets-2002926106903'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
       "date": "2026-11-8"
+    },
+    {
+      "name": "3-Hour Acroyoga workshop on Sunday, 11/29/26: <a href='https://www.eventbrite.com/e/copy-of-acroyoga-learning-lab-3-hour-special-tickets-2005064954253?aff=oddtdtcreator'>Sign up on Eventbrite (requires access code from completing the online orientation)</a>",
+      "date": "2026-11-29"
     }/*,
     {
       "name": "<span style='color: red'>Retired from teaching with occasional workshops. Follow the newsletter to find out about them!</span>",
